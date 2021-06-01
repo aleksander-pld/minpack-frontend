@@ -1,0 +1,22 @@
+$ThemesColor: #82FAD2;
+$WhiteColor: #FFFFFF;
+$BlackColor: #000000;
+$FontsColor: #1E1E1E;
+.butt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 215px;
+  height: 70px;
+  background-color:  #82FAD2;
+  color: #000000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 auto;
+  border-radius: 7px;
+  &:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
