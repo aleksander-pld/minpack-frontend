@@ -23,7 +23,7 @@ export class SubmittingNFT extends Component {
                 </li>
                 <li>
                   <a href="">
-                    <Link to='/admindashboard'>
+                    <Link to='/artist'>
                       <img src="/assets/images/dashboard.png" alt=""/>
                       <span>Dashboard</span>
 
@@ -73,7 +73,7 @@ export class SubmittingNFT extends Component {
             <div className="submmitingNFTSections">
               <h1 style={{ marginBottom: '20px' }}>Thank you for submitting your NFT.</h1>
               <p>Please give us 24 hours to approve your request.</p>
-              <Link to="/admindashboard"><a href="" className="ViewYourDashboard">View Your Dashboard</a></Link>
+              <Link to="/artist"><a href="" className="ViewYourDashboard">View Your Dashboard</a></Link>
               <Link to="/upload"><a href="" className="UploadAnotherNFT">Upload Another NFT</a></Link>
               <br/><br/>
               <Link to="/gallery">

@@ -1,59 +1,55 @@
-import React, { Component, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import axios from 'axios'
+import { ethers } from 'ethers';
 
 
-function Infulencerdah() {
-  const [data, setdata] = useState([])
-  const nftdetails = e => {
-    axios.get('https://newinfluencerapi.herokuapp.com/users')
-      .then(async (response) => {
-        const accounts = await window.ethereum.request({
-          method: "eth_requestAccounts",
-        });
-        if (accounts.length === 0) {
-          return;
-        }
-        for (var i = 0; i < response.data.length; i++) {
-          if (response.data[i].Infulenceraddress === accounts[0]) {
-            setdata(olddata => [...olddata, response.data[i]])
-          }
-          //    setdata(response.data[i])
-        }
-      })
-  }
+const Influencer = () => {
+  const [data, setData] = useState([])
 
   useEffect(() => {
+    const fetchInfluencerShares = async () => {
+      try {
+        if (window.ethereum) {
+          await window.ethereum.enable();
+          const provider = new ethers.providers.Web3Provider(window.ethereum);
+          const signer = provider.getSigner();
+          const address = await signer.getAddress();
 
-    nftdetails()
+          const res = await fetch(`https://mintpactnftbackend.herokuapp.com/api/shares?influencer=${address}`)
+          const { data } = await res.json()
 
+          setData(data)
+        }
+      } catch (e) {
+        console.error(e)
+      }
+    }
+
+    fetchInfluencerShares()
   }, []);
+
   return (
     <div>
       <div className="adminLayoutSection CreatingNFTMain">
         <div className="adminLeftside">
           <div className="logoSections">
-            <Link to="/"><img src="/assets/images/logo.svg" alt=""/></Link>
+            <Link to="/"><img src="/assets/images/logo.svg" alt="Mintpact"/></Link>
           </div>
 
           <div className="leftsideMenus">
             <h3>Influencer</h3>
             <ul>
               <li>
-                <a href="">
-                  <Link to='/gallery'>
-                    <img src="/assets/images/Gallery.svg" alt=""/>
-                    <span>Gallery</span>
-                  </Link>
-                </a>
+                <Link to='/gallery'>
+                  <img src="/assets/images/Gallery.svg" alt=""/>
+                  <span>Gallery</span>
+                </Link>
               </li>
               <li>
-                <a href="">
-                  <Link to='/influencer'>
-                    <img src="/assets/images/dashboard.png" alt=""/>
-                    <span>Dashboard</span>
-                  </Link>
-                </a>
+                <Link to='/influencer'>
+                  <img src="/assets/images/dashboard.png" alt=""/>
+                  <span>Dashboard</span>
+                </Link>
               </li>
             </ul>
           </div>
@@ -94,11 +90,12 @@ function Infulencerdah() {
               </div>
             </nav>
           </div>
+
           <div className="influencerDashboard">
             <h1>Influencer Dashboard</h1>
             <form action="" className="dashboardPage">
               <div className="form-group">
-                <label for="">Account Balance</label>
+                <label>Account Balance</label>
                 <input type="text" className="form-control" disabled/>
                 <span>CLAIM</span>
               </div>
@@ -113,16 +110,16 @@ function Infulencerdah() {
                   <th>PRICE</th>
                   <th>MARGIN</th>
                 </tr>
-                {data.map(da =>
+                {data.map(share =>
                   <tr>
-                    <td>{da.Shareid}</td>
-                    <td>{da.Nftname}</td>
-                    <td>{da.Price}ETH</td>
-                    <td>{da.Marginprice}ETH</td>
+                    <td>{share.shareId}</td>
+                    <td>{share.offer.nft.name}</td>
+                    <td>{share.offer.price} ETH</td>
+                    <td>{share.margin} ETH</td>
                   </tr>
                 )}
-
               </table>
+
               <div className="loadMoreButton">
                 <a href="">Load More</a>
               </div>
@@ -144,19 +141,22 @@ function Infulencerdah() {
                   <a href="" className="ViewStatusButtons">Copy Link To Share</a>
                 </div>
               </div>
-              {data.map(da =>
+
+              {data.map(share =>
                 <div className="tableContent">
                   <div className="SnoSection">
-                    <p className="SnoSectionContent">{da.Shareid}</p>
+                    <p className="SnoSectionContent">{share.shareId}</p>
                   </div>
                   <div className="itemSections">
-                    <p className="itemSectionsContent">{da.Nftname}</p>
+                    <p className="itemSectionsContent">{share.offer.nft.name}</p>
                   </div>
                   <div className="itemSections">
-                    <p className="itemSectionsContent">{da.Sharelink}</p>
+                    <p className="itemSectionsContent">
+                      {`${window.location.origin}/share/${share.shareId}`}
+                    </p>
                   </div>
                   <div className="optionsButtons">
-                    <a href={`/share/${da.shareId}`} className="ViewStatusButtons">Go to ShareLink</a>
+                    <a href={`/share/${share.shareId}`} className="ViewStatusButtons">Go to ShareLink</a>
                   </div>
                 </div>
               )}
@@ -197,4 +197,4 @@ function Infulencerdah() {
 
 }
 
-export default Infulencerdah
+export default Influencer

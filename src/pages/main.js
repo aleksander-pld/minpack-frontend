@@ -10,7 +10,7 @@ export class main extends Component {
             <img src="./assets/images/homeBackgrounds.png" alt=""/>
           </div>
           <div className="hometopButton">
-            <Link to="/artist">
+            <Link to="/select">
               <a href="" className="homepageTopButton">
                 Enter App
               </a>
@@ -51,9 +51,7 @@ export class main extends Component {
               MintPact is the world’s first NFT based Affiliate Protocol that
               enables trustless collaboration between Creators and Marketers.
             </p>
-            <a href="">
-              <Link to="/artist">ENTER APP</Link>
-            </a>
+            <Link to="/select">ENTER APP</Link>
           </div>
         </div>
         <div className="NoInvestmentSection">

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { ethers, Contract } from "ethers";
-import NftReseller from "../contracts/NftReseller.json";
 import swal from "sweetalert";
 import axios from "axios";
+import NftReseller from "../contracts/NftReseller.json";
 import NFT721 from '../contracts/TestNft721Token.json';
 
 const Upload = () => {
@@ -147,7 +147,7 @@ const Upload = () => {
               </li>
               <li>
                 <a href="">
-                  <Link to="/admindashboard">
+                  <Link to="/artist">
                     <img src="/assets/images/dashboard.png" alt=""/>
                     <span>Dashboard</span>
                   </Link>

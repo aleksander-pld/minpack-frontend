@@ -4,7 +4,7 @@ import {
 } from "react-router-dom";
 import { ethers } from "ethers";
 
-function Artist_2() {
+function Select() {
   const [account, setAccount] = useState("");
   const [loading, setloading] = useState(true);
   const [SIGNER, SETSIGNER] = useState({});
@@ -182,4 +182,4 @@ function Artist_2() {
   );
 }
 
-export default Artist_2;
+export default Select;
