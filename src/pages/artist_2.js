@@ -105,17 +105,17 @@ function Artist_2() {
         <div class="ArtistSection">
           <div class="iAmArtis">
             <div class="iAmArtis_overlay">
-              <img src="assets/images/paint-palette.svg" alt=""/>
+              <img src="/assets/images/paint-palette.svg" alt=""/>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <h1>
               I Am an
               <br class="removeBrTag"/>
@@ -130,28 +130,28 @@ function Artist_2() {
             >
               Connect Wallet
             </button>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
           <div class="iAmInfluencer">
             <div class="iAmInfluencer_overlay">
-              <img src="assets/images/phone_icons.svg" alt=""/>
+              <img src="/assets/images/phone_icons.svg" alt=""/>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <h1>
               I Am an
               <br class="removeBrTag"/>
@@ -165,14 +165,14 @@ function Artist_2() {
             >
               Connect Wallet
             </button>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
         </div>
       ) : (

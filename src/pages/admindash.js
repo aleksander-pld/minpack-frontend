@@ -75,7 +75,7 @@ function Admindash() {
                  <div class="adminLayoutSection CreatingNFTMain">
         <div class="adminLeftside">
             <div class="logoSections">
-                <Link to="/"><img src="assets/images/logo.svg" alt="" /></Link>
+                <Link to="/"><img src="/assets/images/logo.svg" alt="" /></Link>
             </div>
             <div class="leftsideMenus">
                 <h3>Artist</h3>
@@ -85,7 +85,7 @@ function Admindash() {
                         <a href="">
                         <Link to="/approve">
                            
-                            <img src="assets/images/SubmitNFT.svg" alt=""/>
+                            <img src="/assets/images/SubmitNFT.svg" alt=""/>
                             <span>Submit NFT</span>
                             </Link>
                             
@@ -96,7 +96,7 @@ function Admindash() {
                     <li>
                         <a href="">
                             <Link to='/admindashboard'>
-                            <img src="assets/images/dashboard.png" alt=""/>
+                            <img src="/assets/images/dashboard.png" alt=""/>
                             <span>Dashboard</span>
                             </Link>
                         </a>
@@ -108,31 +108,31 @@ function Admindash() {
             <div class="responsiveHeader">
                 <nav class="navbar navbar-expand-xl navbar-light">
                     <a class="navbar-brand" href="#">
-                        <Link to="/"><img src="assets/images/logo.svg" alt="" /></Link>
+                        <Link to="/"><img src="/assets/images/logo.svg" alt="" /></Link>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <img src="assets/images/menu_icons.svg" alt=""/>
+                        <img src="/assets/images/menu_icons.svg" alt=""/>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav" style={{marginTop: '30px'}}>
                             <h3>Artist</h3>
                             <li class="nav-item active">
-                                <a class="nav-link" href=""><img src="assets/images/SubmitNFT.svg" alt=""/> Submit NFT</a>
+                                <a class="nav-link" href=""><img src="/assets/images/SubmitNFT.svg" alt=""/> Submit NFT</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="">
-                                    <img src="assets/images/dashboard.png" alt=""/> Dashboard
+                                    <img src="/assets/images/dashboard.png" alt=""/> Dashboard
                                 </a>
                             </li>
                         </ul>
                         <ul class="navbar-nav" style={{marginTop: '30px'}}>
                             <h3>Influencer</h3>
                             <li class="nav-item">
-                                <a class="nav-link" href=""> <img src="assets/images/Gallery.svg" alt=""/> Gallery</a>
+                                <a class="nav-link" href=""> <img src="/assets/images/Gallery.svg" alt=""/> Gallery</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="">
-                                    <img src="assets/images/dashboard.png" alt=""/> Dashboard
+                                    <img src="/assets/images/dashboard.png" alt=""/> Dashboard
                                 </a>
                             </li>
                         </ul>

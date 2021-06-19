@@ -15,37 +15,37 @@ export class main extends Component {
               </a>
             </Link>
           </div>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <div
             class="homeSliderContent"
             style={{ position: "absolute", marginBottom: "10px" }}
           >
-            <img src="assets/images/logo.svg" alt="" />
+            <img src="/assets/images/logo.svg" alt="" />
             <p>
               MintPact is the world’s first NFT based Affiliate Protocol that
               enables trustless collaboration between Creators and Marketers.

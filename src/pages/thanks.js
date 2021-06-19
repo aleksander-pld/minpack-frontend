@@ -10,12 +10,12 @@ const Thanks =  ({nftaddress,tx}) => {
             <div>
                  <div class="buyWithMetamask">
         <div class="bgbuyWithMetamask thanksSections">
-            <img src="assets/images/logo.svg" alt=""/>
+            <img src="/assets/images/logo.svg" alt=""/>
             <h1>Thank you for your purchase !</h1>
             <p>The NFT will be delivered to your wallet.</p>
-            <br></br>
-            <h4>Contract Address of purchased NFT<br></br>{nftaddress} </h4>
-            <br></br>
+            <br />
+            <h4>Contract Address of purchased NFT<br />{nftaddress} </h4>
+            <br />
             <h4><a href={`https://rinkeby.etherscan.io/tx/${tx}` } target="_blank">View your transaction</a></h4>
         </div>
         

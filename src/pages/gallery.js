@@ -23,7 +23,7 @@ const Gallery = () => {
       <div className="adminLayoutSection CreatingNFTMain">
         <div className="adminLeftside">
           <div className="logoSections">
-            <Link to="/"><img src="assets/images/logo.svg" alt=""/></Link>
+            <Link to="/"><img src="/assets/images/logo.svg" alt=""/></Link>
           </div>
 
           <div className="leftsideMenus">
@@ -32,7 +32,7 @@ const Gallery = () => {
               <li>
                 <a href="">
                   <Link to="/gallery">
-                    <img src="assets/images/Gallery.svg" alt=""/>
+                    <img src="/assets/images/Gallery.svg" alt=""/>
                     <span>Gallery</span>
                   </Link>
                 </a>
@@ -40,7 +40,7 @@ const Gallery = () => {
               <li>
                 <a href="">
                   <Link to="/influencer">
-                    <img src="assets/images/dashboard.png" alt=""/>
+                    <img src="/assets/images/dashboard.png" alt=""/>
                     <span>Dashboard</span>
                   </Link>
                 </a>
@@ -53,7 +53,7 @@ const Gallery = () => {
           <div className="responsiveHeader">
             <nav className="navbar navbar-expand-xl navbar-light">
               <a className="navbar-brand" href="#">
-                <Link to="/"><img src="assets/images/logo.svg" alt=""/></Link>
+                <Link to="/"><img src="/assets/images/logo.svg" alt=""/></Link>
               </a>
               <button
                 className="navbar-toggler"
@@ -64,20 +64,20 @@ const Gallery = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <img src="assets/images/menu_icons.svg" alt=""/>
+                <img src="/assets/images/menu_icons.svg" alt=""/>
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav" style={{ marginTop: "30px" }}>
                   <h3>Artist</h3>
                   <li className="nav-item active">
                     <a className="nav-link" href="">
-                      <img src="assets/images/SubmitNFT.svg" alt=""/> Submit
+                      <img src="/assets/images/SubmitNFT.svg" alt=""/> Submit
                       NFT
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="">
-                      <img src="assets/images/dashboard.png" alt=""/> Dashboard
+                      <img src="/assets/images/dashboard.png" alt=""/> Dashboard
                     </a>
                   </li>
                 </ul>
@@ -86,12 +86,12 @@ const Gallery = () => {
                   <li className="nav-item">
                     <a className="nav-link" href="">
                       {" "}
-                      <img src="assets/images/Gallery.svg" alt=""/> Gallery
+                      <img src="/assets/images/Gallery.svg" alt=""/> Gallery
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="">
-                      <img src="assets/images/dashboard.png" alt=""/> Dashboard
+                      <img src="/assets/images/dashboard.png" alt=""/> Dashboard
                     </a>
                   </li>
                 </ul>
