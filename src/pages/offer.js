@@ -135,7 +135,7 @@ const Offer = (props) => {
             </div>
           </div>
           <div className="adminRightSide CreateNFTSections">
-            <div className="respoonsiveHeader">
+            <div className="responsiveHeader">
               <nav className="navbar navbar-expand-xl navbar-light">
                 <a className="navbar-brand" href="#">
                   <img src="assets/images/logo.svg" alt=""/>

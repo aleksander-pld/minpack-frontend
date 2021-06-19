@@ -50,7 +50,7 @@ const Gallery = () => {
         </div>
 
         <div className="adminRightSide CreateNFTSections">
-          <div className="respoonsiveHeader">
+          <div className="responsiveHeader">
             <nav className="navbar navbar-expand-xl navbar-light">
               <a className="navbar-brand" href="#">
                 <Link to="/"><img src="assets/images/logo.svg" alt=""/></Link>

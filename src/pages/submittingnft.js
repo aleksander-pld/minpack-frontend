@@ -35,7 +35,7 @@ export class SubmittingNFT extends Component {
 
           </div>
           <div class="adminRightSide CreateNFTSections">
-            <div class="respoonsiveHeader">
+            <div class="responsiveHeader">
               <nav class="navbar navbar-expand-xl navbar-light">
                 <a class="navbar-brand" href="#">
                   <img src="assets/images/logo.svg" alt=""/>

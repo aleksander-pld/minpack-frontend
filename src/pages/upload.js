@@ -44,8 +44,20 @@ const Upload = () => {
   }, []);
 
   const onClickUpload = async () => {
-    if (!isAccepted) {
-      swal("Please accept the terms!")
+    let error = ''
+
+    if (!price) {
+      error = 'Please enter minimum price'
+    } else if (!type) {
+      error = 'Please select the type of NFT'
+    } else if (!description) {
+      error = 'Please enter description for NFT'
+    } else if (!isAccepted) {
+      error = 'Please accept the terms'
+    }
+
+    if (error) {
+      swal(error)
       return
     }
 
@@ -146,40 +158,93 @@ const Upload = () => {
         </div>
 
         <div className="adminRightSide CreateNFTSections">
+          <div className="responsiveHeader">
+            <nav className="navbar navbar-expand-xl navbar-light">
+              <a className="navbar-brand" href="#">
+                <Link to="/"><img src="assets/images/logo.svg" alt=""/></Link>
+              </a>
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <img src="assets/images/menu_icons.svg" alt=""/>
+              </button>
+              <div className="collapse navbar-collapse" id="navbarNav">
+                <ul className="navbar-nav" style={{ marginTop: "30px" }}>
+                  <h3>Artist</h3>
+                  <li className="nav-item active">
+                    <a className="nav-link" href="">
+                      <img src="assets/images/SubmitNFT.svg" alt=""/> Submit
+                      NFT
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="">
+                      <img src="assets/images/dashboard.png" alt=""/> Dashboard
+                    </a>
+                  </li>
+                </ul>
+                <ul className="navbar-nav" style={{ marginTop: "30px" }}>
+                  <h3>Influencer</h3>
+                  <li className="nav-item">
+                    <a className="nav-link" href="">
+                      {" "}
+                      <img src="assets/images/Gallery.svg" alt=""/> Gallery
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="">
+                      <img src="assets/images/dashboard.png" alt=""/> Dashboard
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
           <h1>{`${step === 0 ? 'Select' : 'Upload'}`} NFT</h1>
 
           {step === 0 && nfts.length !== 0 && (
             <>
-              <div className="nft-card-container">
-                <div className="card-columns nfts">
-                  {nfts.map((nft) => {
-                    const isSelected = selectedNft && (selectedNft.id === nft.id)
-                    return (
-                      <div
-                        className="card position-relative"
-                        onClick={() => setSelectedNft(nft)}
-                        key={nft.id}
-                      >
-                        {isSelected && (
-                          <img className="icon-selected" src="/assets/images/checked.svg" width="24" alt="selected"/>
-                        )}
-                        <img className="card-img-top" src={nft.image_url} alt={nft.name}/>
-                        <div className="card-body">
-                          <h5 className="card-title">{nft.name}</h5>
-                        </div>
-                      </div>
-                    )
-                  })}
+              <div className="NFTCardSections">
+                <div className="container">
+                  <div className="row">
+                    {nfts.map((nft) => {
+                        const isSelected = selectedNft && (selectedNft.id === nft.id)
+                        return (
+                          <div className="col-lg-4 col-md-6 col-6" onClick={() => setSelectedNft(nft)} key={nft._id}>
+                            <div className="NFTCard">
+                              <div className="NFTuserCard position-relative">
+                                {isSelected && (
+                                  <img className="icon-selected" src="/assets/images/checked.svg" width="24" alt="selected"/>
+                                )}
+                                <img src={nft.image_url} alt={nft.name}/>
+                              </div>
+                              <h2>{nft.name}</h2>
+                            </div>
+                          </div>
+                        )
+                      }
+                    )}
+                  </div>
                 </div>
               </div>
-              <button
-                type="submit"
-                className="creatingNFTUpload"
-                disabled={!selectedNft}
-                onClick={() => setStep(1)}
-              >
-                Continue
-              </button>
+
+              <div className="upload-actions">
+                <button
+                  type="submit"
+                  className="creatingNFTUpload"
+                  disabled={!selectedNft}
+                  onClick={() => setStep(1)}
+                >
+                  Continue
+                </button>
+              </div>
             </>
           )}
 
@@ -356,14 +421,25 @@ const Upload = () => {
                   </label>
                 </div>
 
-                <button
-                  type="submit"
-                  className="creatingNFTUpload"
-                  disabled={isTransactionPending}
-                  onClick={onClickUpload}
-                >
-                  UPLOAD
-                </button>
+                <div className="upload-actions">
+                  <button
+                    type="button"
+                    className="btn btn-link btn-cancel"
+                    onClick={() => setStep(0)}
+                  >
+                    CANCEL
+                  </button>
+
+                  <button
+                    type="submit"
+                    className="creatingNFTUpload"
+                    disabled={isTransactionPending}
+                    onClick={onClickUpload}
+                  >
+                    UPLOAD
+                  </button>
+                </div>
+
                 <br/>
                 <br/>
 

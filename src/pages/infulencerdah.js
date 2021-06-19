@@ -61,7 +61,7 @@ function Infulencerdah() {
             </div>
         </div>
         <div class="adminRightSide CreateNFTSections">
-            <div class="respoonsiveHeader">
+            <div class="responsiveHeader">
                 <nav class="navbar navbar-expand-xl navbar-light">
                     <a class="navbar-brand" href="#">
                         <Link to="/"><img src="assets/images/logo.svg" alt="" /></Link>

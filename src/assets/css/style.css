@@ -453,27 +453,27 @@ footer .footercontents ul li a:hover {
     margin-left: 0 !important;
   }
 }
-.adminLayoutSection .adminRightSide .respoonsiveHeader {
+.adminLayoutSection .adminRightSide .responsiveHeader {
   display: none;
 }
 @media (max-width: 1200px) {
-  .adminLayoutSection .adminRightSide .respoonsiveHeader {
+  .adminLayoutSection .adminRightSide .responsiveHeader {
     display: block;
     margin-bottom: 60px;
   }
-  .adminLayoutSection .adminRightSide .respoonsiveHeader .navbar .navbar-brand img {
+  .adminLayoutSection .adminRightSide .responsiveHeader .navbar .navbar-brand img {
     width: 150px;
   }
-  .adminLayoutSection .adminRightSide .respoonsiveHeader .navbar .navbar-toggler:focus {
+  .adminLayoutSection .adminRightSide .responsiveHeader .navbar .navbar-toggler:focus {
     box-shadow: none;
     outline: none;
   }
-  .adminLayoutSection .adminRightSide .respoonsiveHeader .navbar .collapse ul h3 {
+  .adminLayoutSection .adminRightSide .responsiveHeader .navbar .collapse ul h3 {
     font-size: 20px;
     font-weight: bold;
     color: #1E1E1E;
   }
-  .adminLayoutSection .adminRightSide .respoonsiveHeader .navbar .collapse ul li a img {
+  .adminLayoutSection .adminRightSide .responsiveHeader .navbar .collapse ul li a img {
     width: 100%;
     max-width: 25px;
     margin-right: 15px;
