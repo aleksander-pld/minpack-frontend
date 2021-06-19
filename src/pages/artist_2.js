@@ -1,14 +1,8 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
-  Link,
-  Route,
-  Switch,
-  BrowserRouter as Router,
   useHistory,
 } from "react-router-dom";
-import { ethers, Contract } from "ethers";
-import Approvee from "./approvee";
-import Gallery from "./gallery";
+import { ethers } from "ethers";
 
 function Artist_2() {
   const [account, setAccount] = useState("");
@@ -51,11 +45,9 @@ function Artist_2() {
     SETSIGNER(signer);
 
     let url = window.location.href;
-    console.log(url);
 
     const accounts = await ethereum.request({ method: "eth_requestAccounts" });
-    console.log(accounts);
-    if (accounts.length == 0) {
+    if (accounts.length === 0) {
       return;
     }
 
@@ -65,7 +57,7 @@ function Artist_2() {
     await provider.getNetwork().then((result) => {
       networkId = result.chainId;
     });
-    if (networkId == 4) {
+    if (networkId === 4) {
       setloading(false);
     } else {
       window.alert("Please Select Rinkeby Network on metamask");
@@ -77,60 +69,43 @@ function Artist_2() {
     const accounts = await window.ethereum.request({
       method: "eth_requestAccounts",
     });
-    console.log(accounts);
-    if (accounts.length == 0) {
+    if (accounts.length === 0) {
       return;
     }
     setAccount(accounts[0]);
     loadBlockchainData();
   };
+
   useEffect(() => {
     // loadWeb3();
     //loadBlockchainData();
 
-    if (refresh == 1) {
+    if (refresh) {
       setrefresh(0);
       loadBlockchainData();
     }
     //esl
   }, [refresh]);
-  if (loading === true) {
+
+  if (loading) {
     content = (
       <div style={{ height: "100vh" }}>
-        <div class="loader"></div>
+        <div className="loader"/>
       </div>
     );
-  } else if (artist == "art") {
-    content = (
-      <div>
-        {history.push("/approve")}
-        <Route
-        style={{textDecoration:'none'}}
-          path="/approve"
-          exact
-          render={({ match }) => <Approvee />}
-        ></Route>
-      </div>
-    );
+  } else if (artist === "art") {
+    history.push("/upload")
   } else {
-    content = (
-      <div>
-        {history.push("/gallery")}
-        <Route
-          path="/gallery"
-          exact
-          render={({ match }) => <Gallery />}
-        ></Route>
-      </div>
-    );
+    history.push("/gallery")
   }
+
   return (
     <div>
       {account == "" ? (
         <div class="ArtistSection">
           <div class="iAmArtis">
             <div class="iAmArtis_overlay">
-              <img src="assets/images/paint-palette.svg" alt="" />
+              <img src="assets/images/paint-palette.svg" alt=""/>
             </div>
             <br></br>
             <br></br>
@@ -143,7 +118,7 @@ function Artist_2() {
             <br></br>
             <h1>
               I Am an
-              <br class="removeBrTag" />
+              <br class="removeBrTag"/>
               <span>Artist</span>
             </h1>
             <button
@@ -166,7 +141,7 @@ function Artist_2() {
           </div>
           <div class="iAmInfluencer">
             <div class="iAmInfluencer_overlay">
-              <img src="assets/images/phone_icons.svg" alt="" />
+              <img src="assets/images/phone_icons.svg" alt=""/>
             </div>
             <br></br>
             <br></br>
@@ -179,7 +154,7 @@ function Artist_2() {
             <br></br>
             <h1>
               I Am an
-              <br class="removeBrTag" />
+              <br class="removeBrTag"/>
               <span>Influencer</span>
             </h1>
             <button

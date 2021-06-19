@@ -60,7 +60,7 @@ function Infulencerdah() {
                 </ul>
             </div>
         </div>
-        <div class="adminReightSide CreateNFTSections">
+        <div class="adminRightSide CreateNFTSections">
             <div class="respoonsiveHeader">
                 <nav class="navbar navbar-expand-xl navbar-light">
                     <a class="navbar-brand" href="#">

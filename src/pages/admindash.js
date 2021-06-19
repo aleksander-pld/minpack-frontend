@@ -19,7 +19,7 @@ function Admindash() {
             const signer = provider.getSigner();
     
             const nftreseller = new Contract(
-              '0x7C31136E28570e972472277338f62ae1B7fF1B94',
+              '0xCB996552a7ba1596C8B71395D73166026dfA8dFD',
               NftReseller.abi,
               signer
             );
@@ -104,7 +104,7 @@ function Admindash() {
                 </ul>
             </div>
         </div>
-        <div class="adminReightSide CreateNFTSections">
+        <div class="adminRightSide CreateNFTSections">
             <div class="respoonsiveHeader">
                 <nav class="navbar navbar-expand-xl navbar-light">
                     <a class="navbar-brand" href="#">

@@ -438,7 +438,7 @@ footer .footercontents ul li a:hover {
   max-width: 25px;
   margin-right: 15px;
 }
-.adminLayoutSection .adminReightSide {
+.adminLayoutSection .adminRightSide {
   width: 100%;
   height: 100%;
   max-width: calc(100% - 350px);
@@ -448,38 +448,38 @@ footer .footercontents ul li a:hover {
   flex-direction: column;
 }
 @media (max-width: 1200px) {
-  .adminLayoutSection .adminReightSide {
+  .adminLayoutSection .adminRightSide {
     max-width: 100%;
     margin-left: 0 !important;
   }
 }
-.adminLayoutSection .adminReightSide .respoonsiveHeader {
+.adminLayoutSection .adminRightSide .respoonsiveHeader {
   display: none;
 }
 @media (max-width: 1200px) {
-  .adminLayoutSection .adminReightSide .respoonsiveHeader {
+  .adminLayoutSection .adminRightSide .respoonsiveHeader {
     display: block;
     margin-bottom: 60px;
   }
-  .adminLayoutSection .adminReightSide .respoonsiveHeader .navbar .navbar-brand img {
+  .adminLayoutSection .adminRightSide .respoonsiveHeader .navbar .navbar-brand img {
     width: 150px;
   }
-  .adminLayoutSection .adminReightSide .respoonsiveHeader .navbar .navbar-toggler:focus {
+  .adminLayoutSection .adminRightSide .respoonsiveHeader .navbar .navbar-toggler:focus {
     box-shadow: none;
     outline: none;
   }
-  .adminLayoutSection .adminReightSide .respoonsiveHeader .navbar .collapse ul h3 {
+  .adminLayoutSection .adminRightSide .respoonsiveHeader .navbar .collapse ul h3 {
     font-size: 20px;
     font-weight: bold;
     color: #1E1E1E;
   }
-  .adminLayoutSection .adminReightSide .respoonsiveHeader .navbar .collapse ul li a img {
+  .adminLayoutSection .adminRightSide .respoonsiveHeader .navbar .collapse ul li a img {
     width: 100%;
     max-width: 25px;
     margin-right: 15px;
   }
 }
-.adminLayoutSection .adminReightSide .ApproveNFT {
+.adminLayoutSection .adminRightSide .ApproveNFT {
   position: relative;
   width: 100%;
   max-width: 710px;
@@ -491,7 +491,7 @@ footer .footercontents ul li a:hover {
   flex-direction: column;
   justify-content: center;
 }
-.adminLayoutSection .adminReightSide .ApproveNFT h1 {
+.adminLayoutSection .adminRightSide .ApproveNFT h1 {
   font-size: 44px;
   font-family: "Poppins", sans-serif;
   color: #1E1E1E;
@@ -499,11 +499,11 @@ footer .footercontents ul li a:hover {
   font-weight: bold;
 }
 @media (max-width: 991px) {
-  .adminLayoutSection .adminReightSide .ApproveNFT h1 {
+  .adminLayoutSection .adminRightSide .ApproveNFT h1 {
     font-size: 35px;
   }
 }
-.adminLayoutSection .adminReightSide .ApproveNFT select {
+.adminLayoutSection .adminRightSide .ApproveNFT select {
   background-color: #E3FFF1;
   padding: 0 20px;
   height: 60px;
@@ -515,11 +515,11 @@ footer .footercontents ul li a:hover {
   color: #4d4d4d;
   margin: 0 auto 50px auto;
 }
-.adminLayoutSection .adminReightSide .ApproveNFT select:focus {
+.adminLayoutSection .adminRightSide .ApproveNFT select:focus {
   box-shadow: none;
   outline: none;
 }
-.adminLayoutSection .adminReightSide .ApproveNFT a {
+.adminLayoutSection .adminRightSide .ApproveNFT a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -533,7 +533,7 @@ footer .footercontents ul li a:hover {
   margin: 0 auto;
   border-radius: 7px;
 }
-.adminLayoutSection .adminReightSide .ApproveNFT a:hover {
+.adminLayoutSection .adminRightSide .ApproveNFT a:hover {
   text-decoration: none;
   cursor: pointer;
 }
@@ -635,7 +635,7 @@ footer .footercontents ul li a:hover {
   left: 0;
 }
 
-.adminReightSide.CreateNFTSections {
+.adminRightSide.CreateNFTSections {
   display: block;
   padding: 60px 20px 0 20px;
   height: 100%;
@@ -644,11 +644,11 @@ footer .footercontents ul li a:hover {
   margin-left: 350px;
 }
 @media (max-width: 1200px) {
-  .adminReightSide.CreateNFTSections {
+  .adminRightSide.CreateNFTSections {
     padding: 0px 20px 0 20px;
   }
 }
-.adminReightSide.CreateNFTSections h1 {
+.adminRightSide.CreateNFTSections h1 {
   font-size: 35px;
   text-align: center;
   font-weight: 600;
@@ -656,25 +656,25 @@ footer .footercontents ul li a:hover {
   margin-bottom: 60px;
 }
 @media (max-width: 991px) {
-  .adminReightSide.CreateNFTSections h1 {
+  .adminRightSide.CreateNFTSections h1 {
     font-size: 28px;
     margin-bottom: 25px;
   }
 }
-.adminReightSide.CreateNFTSections form {
+.adminRightSide.CreateNFTSections form {
   width: 100%;
   max-width: 710px;
   margin: 0 auto 150px;
 }
 @media (max-width: 991px) {
-  .adminReightSide.CreateNFTSections form {
+  .adminRightSide.CreateNFTSections form {
     margin: 0 auto 50px;
   }
 }
-.adminReightSide.CreateNFTSections form .form-group {
+.adminRightSide.CreateNFTSections form .form-group {
   position: relative;
 }
-.adminReightSide.CreateNFTSections form .form-group label {
+.adminRightSide.CreateNFTSections form .form-group label {
   font-size: 18px;
   background-color: #E3FFF1;
   position: absolute;
@@ -688,39 +688,39 @@ footer .footercontents ul li a:hover {
   border-radius: 20px 0 0 20px;
 }
 @media (max-width: 575px) {
-  .adminReightSide.CreateNFTSections form .form-group label {
+  .adminRightSide.CreateNFTSections form .form-group label {
     position: relative;
     width: 100%;
     border-radius: 20px;
     font-size: 16px;
   }
 }
-.adminReightSide.CreateNFTSections form .form-group input,
-.adminReightSide.CreateNFTSections form .form-group select {
+.adminRightSide.CreateNFTSections form .form-group input,
+.adminRightSide.CreateNFTSections form .form-group select {
   border: solid 2px #1E1E1E;
   height: 60px;
   font-size: 22px;
   border-radius: 20px;
   margin-bottom: 30px;
 }
-.adminReightSide.CreateNFTSections form .form-group input:focus,
-.adminReightSide.CreateNFTSections form .form-group select:focus {
+.adminRightSide.CreateNFTSections form .form-group input:focus,
+.adminRightSide.CreateNFTSections form .form-group select:focus {
   box-shadow: none;
   outline: none;
 }
-.adminReightSide.CreateNFTSections form .form-group select {
+.adminRightSide.CreateNFTSections form .form-group select {
   background-color: #E3FFF1;
 }
-.adminReightSide.CreateNFTSections form .form-group input {
+.adminRightSide.CreateNFTSections form .form-group input {
   padding-left: 250px;
 }
 @media (max-width: 575px) {
-  .adminReightSide.CreateNFTSections form .form-group input {
+  .adminRightSide.CreateNFTSections form .form-group input {
     padding-left: 20px;
     font-size: 18px;
   }
 }
-.adminReightSide.CreateNFTSections form .form-group span {
+.adminRightSide.CreateNFTSections form .form-group span {
   position: absolute;
   width: 80px;
   height: 56px;
@@ -735,85 +735,85 @@ footer .footercontents ul li a:hover {
   justify-content: center;
 }
 @media (max-width: 575px) {
-  .adminReightSide.CreateNFTSections form .form-group span {
+  .adminRightSide.CreateNFTSections form .form-group span {
     top: 67px;
     font-size: 16px;
   }
 }
-.adminReightSide.CreateNFTSections form.dashboardPage .form-group label {
+.adminRightSide.CreateNFTSections form.dashboardPage .form-group label {
   background-color: #1E1E1E;
   color: #FFFFFF;
   top: 1px;
   height: 57px;
   left: 0;
 }
-.adminReightSide.CreateNFTSections form.dashboardPage .form-group span {
+.adminRightSide.CreateNFTSections form.dashboardPage .form-group span {
   width: 110px;
 }
-.adminReightSide.CreateNFTSections .customTableSection {
+.adminRightSide.CreateNFTSections .customTableSection {
   position: relative;
   width: 100%;
   max-width: 950px;
   margin: 40px auto 80px;
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent {
   display: flex;
   align-items: center;
   border-bottom: solid 2px #DBEDE5;
   height: 80px;
 }
 @media (max-width: 991px) {
-  .adminReightSide.CreateNFTSections .customTableSection .tableContent {
+  .adminRightSide.CreateNFTSections .customTableSection .tableContent {
     height: auto;
     padding: 15px 10px;
     flex-wrap: wrap;
   }
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent:last-child {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent:last-child {
   border-bottom: none;
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .SnoSection {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .SnoSection {
   width: 150px;
   text-align: left;
 }
 @media (max-width: 991px) {
-  .adminReightSide.CreateNFTSections .customTableSection .tableContent .SnoSection {
+  .adminRightSide.CreateNFTSections .customTableSection .tableContent .SnoSection {
     width: 40%;
   }
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .SnoSection p {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .SnoSection p {
   margin: 0;
   font-size: 24px;
   font-weight: normal;
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .SnoSection .SnoSectionContent {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .SnoSection .SnoSectionContent {
   font-size: 16px;
   padding-left: 5px;
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .itemSections {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .itemSections {
   width: 300px;
   text-align: left;
 }
 @media (max-width: 991px) {
-  .adminReightSide.CreateNFTSections .customTableSection .tableContent .itemSections {
+  .adminRightSide.CreateNFTSections .customTableSection .tableContent .itemSections {
     width: 60%;
   }
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .itemSections p {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .itemSections p {
   margin: 0;
   font-size: 24px;
   font-weight: normal;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .customTableSection .tableContent .itemSections p {
+  .adminRightSide.CreateNFTSections .customTableSection .tableContent .itemSections p {
     font-size: 20px;
   }
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .itemSections .itemSectionsContent {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .itemSections .itemSectionsContent {
   font-size: 16px;
   padding-left: 5px;
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons {
   width: calc(100% - 450px);
   text-align: right;
   padding-right: 20px;
@@ -822,13 +822,13 @@ footer .footercontents ul li a:hover {
   justify-content: flex-end;
 }
 @media (max-width: 991px) {
-  .adminReightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons {
+  .adminRightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons {
     width: 100%;
     justify-content: flex-start;
     margin-top: 20px;
   }
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons a {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons a {
   margin: 0;
   padding: 0;
   border: solid 2px #1E1E1E;
@@ -843,36 +843,36 @@ footer .footercontents ul li a:hover {
   font-size: 18px;
   transition: all 0.5s ease;
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons a:hover {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons a:hover {
   text-decoration: none;
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons .ViewStatusButtons {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons .ViewStatusButtons {
   color: #1E1E1E;
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons .ViewStatusButtons:hover {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons .ViewStatusButtons:hover {
   background-color: #1E1E1E;
   transition: all 0.5s ease;
   color: whitesmoke;
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons .CancelOfferButton {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons .CancelOfferButton {
   border: solid 2px #FF4C4C;
   color: #FF4C4C;
 }
-.adminReightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons .CancelOfferButton:hover {
+.adminRightSide.CreateNFTSections .customTableSection .tableContent .optionsButtons .CancelOfferButton:hover {
   transition: all 0.5s ease;
   background-color: #FF4C4C;
   color: #FFFFFF;
 }
 @media (max-width: 991px) {
-  .adminReightSide.CreateNFTSections .customTableSection .tableContent .mobileDisplay {
+  .adminRightSide.CreateNFTSections .customTableSection .tableContent .mobileDisplay {
     display: none;
   }
 }
-.adminReightSide.CreateNFTSections .uploadNewNFTbutotn {
+.adminRightSide.CreateNFTSections .uploadNewNFTbutotn {
   text-align: center;
   margin-bottom: 80px;
 }
-.adminReightSide.CreateNFTSections .uploadNewNFTbutotn a {
+.adminRightSide.CreateNFTSections .uploadNewNFTbutotn a {
   background-color: #82FAD2;
   display: flex;
   align-items: center;
@@ -886,16 +886,16 @@ footer .footercontents ul li a:hover {
   font-weight: 600;
   margin: 0 auto;
 }
-.adminReightSide.CreateNFTSections .uploadNewNFTbutotn a:hover {
+.adminRightSide.CreateNFTSections .uploadNewNFTbutotn a:hover {
   text-decoration: none;
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types {
   position: relative;
   width: 100%;
   max-width: 950px;
   margin: 0 auto 80px;
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types h2 {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types h2 {
   text-align: center;
   font-size: 25px;
   font-weight: normal;
@@ -903,7 +903,7 @@ footer .footercontents ul li a:hover {
   margin-bottom: 60px;
   position: relative;
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types h2::before {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types h2::before {
   content: "";
   position: absolute;
   left: 0;
@@ -913,7 +913,7 @@ footer .footercontents ul li a:hover {
   background-color: #DBEDE5;
   bottom: 45%;
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types h2::after {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types h2::after {
   content: "";
   position: absolute;
   left: auto;
@@ -923,7 +923,7 @@ footer .footercontents ul li a:hover {
   background-color: #DBEDE5;
   bottom: 45%;
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types ul {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -931,30 +931,30 @@ footer .footercontents ul li a:hover {
   align-items: center;
   flex-wrap: wrap;
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types ul li {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types ul li {
   margin-bottom: 25px;
   width: 25%;
   text-align: left;
 }
 @media (max-width: 991px) {
-  .adminReightSide.CreateNFTSections .CreatingNFT_Types ul li {
+  .adminRightSide.CreateNFTSections .CreatingNFT_Types ul li {
     width: 30%;
   }
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .CreatingNFT_Types ul li {
+  .adminRightSide.CreateNFTSections .CreatingNFT_Types ul li {
     width: 45%;
   }
 }
 @media (max-width: 480px) {
-  .adminReightSide.CreateNFTSections .CreatingNFT_Types ul li {
+  .adminRightSide.CreateNFTSections .CreatingNFT_Types ul li {
     width: 100%;
   }
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types ul li input[type=checkbox] {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types ul li input[type=checkbox] {
   display: none;
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types ul li input[type=checkbox] + label {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types ul li input[type=checkbox] + label {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -966,10 +966,10 @@ footer .footercontents ul li a:hover {
   -moz-user-select: none;
   -ms-user-select: none;
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types ul li input[type=checkbox] + label:last-child {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types ul li input[type=checkbox] + label:last-child {
   margin-bottom: 0;
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types ul li input[type=checkbox] + label:before {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types ul li input[type=checkbox] + label:before {
   content: "";
   display: block;
   width: 20px;
@@ -982,7 +982,7 @@ footer .footercontents ul li a:hover {
   -webkit-transition: all 0.12s, border-color 0.08s;
   transition: all 0.12s, border-color 0.08s;
 }
-.adminReightSide.CreateNFTSections .CreatingNFT_Types ul li input[type=checkbox]:checked + label:before {
+.adminRightSide.CreateNFTSections .CreatingNFT_Types ul li input[type=checkbox]:checked + label:before {
   width: 10px;
   top: -5px;
   left: 5px;
@@ -993,13 +993,13 @@ footer .footercontents ul li a:hover {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-.adminReightSide.CreateNFTSections .creatingNFT_Description {
+.adminRightSide.CreateNFTSections .creatingNFT_Description {
   position: relative;
   width: 100%;
   max-width: 950px;
   margin: 40px auto 40px;
 }
-.adminReightSide.CreateNFTSections .creatingNFT_Description h2 {
+.adminRightSide.CreateNFTSections .creatingNFT_Description h2 {
   text-align: center;
   font-size: 25px;
   font-weight: normal;
@@ -1007,7 +1007,7 @@ footer .footercontents ul li a:hover {
   margin-bottom: 100px;
   position: relative;
 }
-.adminReightSide.CreateNFTSections .creatingNFT_Description h2::before {
+.adminRightSide.CreateNFTSections .creatingNFT_Description h2::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1017,7 +1017,7 @@ footer .footercontents ul li a:hover {
   background-color: #DBEDE5;
   bottom: 45%;
 }
-.adminReightSide.CreateNFTSections .creatingNFT_Description h2::after {
+.adminRightSide.CreateNFTSections .creatingNFT_Description h2::after {
   content: "";
   position: absolute;
   left: auto;
@@ -1027,7 +1027,7 @@ footer .footercontents ul li a:hover {
   background-color: #DBEDE5;
   bottom: 45%;
 }
-.adminReightSide.CreateNFTSections .creatingNFT_Description textarea {
+.adminRightSide.CreateNFTSections .creatingNFT_Description textarea {
   text-align: left;
   width: 100%;
   max-width: 700px;
@@ -1039,15 +1039,15 @@ footer .footercontents ul li a:hover {
   margin: 0 auto;
   resize: none;
 }
-.adminReightSide.CreateNFTSections .creatingNFT_Description textarea::placeholder {
+.adminRightSide.CreateNFTSections .creatingNFT_Description textarea::placeholder {
   font-style: italic;
   font-weight: normal;
 }
-.adminReightSide.CreateNFTSections .creatingNFT_Description textarea:focus {
+.adminRightSide.CreateNFTSections .creatingNFT_Description textarea:focus {
   outline: none;
   box-shadow: none;
 }
-.adminReightSide.CreateNFTSections .Description_termofService {
+.adminRightSide.CreateNFTSections .Description_termofService {
   position: relative;
   width: 100%;
   max-width: 950px;
@@ -1055,7 +1055,7 @@ footer .footercontents ul li a:hover {
   text-align: center;
   margin-top: 40px;
 }
-.adminReightSide.CreateNFTSections .creatingNFTUpload {
+.adminRightSide.CreateNFTSections .creatingNFTUpload {
   text-align: center;
   display: flex;
   align-items: center;
@@ -1070,43 +1070,43 @@ footer .footercontents ul li a:hover {
   margin-top: 40px;
   font-weight: 500;
 }
-.adminReightSide.CreateNFTSections .creatingNFTUpload:hover {
+.adminRightSide.CreateNFTSections .creatingNFTUpload:hover {
   text-decoration: none;
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection {
+.adminRightSide.CreateNFTSections .galleryFilterSection {
   position: relative;
   width: 100%;
   margin: 60px auto 0;
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection {
+.adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection {
   position: relative;
   display: flex;
   align-items: center;
   width: 100%;
 }
 @media (max-width: 575px) {
-  .adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection {
+  .adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection {
     flex-direction: column;
     align-items: inherit;
   }
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection span {
+.adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection span {
   font-size: 18px;
   color: #1E1E1E;
   margin-right: 50px;
 }
 @media (max-width: 1540px) {
-  .adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection span {
+  .adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection span {
     margin-right: 20px;
   }
 }
 @media (max-width: 575px) {
-  .adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection span {
+  .adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection span {
     font-size: 16px;
     font-weight: 600;
   }
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul {
+.adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -1116,24 +1116,24 @@ footer .footercontents ul li a:hover {
   justify-content: center;
 }
 @media (max-width: 1200px) {
-  .adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul {
+  .adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul {
     justify-content: inherit;
     width: auto;
   }
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li {
+.adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li {
   position: relative;
   margin-right: 30px;
 }
 @media (max-width: 1540px) {
-  .adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li {
+  .adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li {
     margin-right: 10px;
   }
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li:last-child {
+.adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li:last-child {
   margin-right: 0;
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li a {
+.adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li a {
   font-size: 16px;
   display: flex;
   align-items: center;
@@ -1147,32 +1147,32 @@ footer .footercontents ul li a:hover {
   color: #1E1E1E;
 }
 @media (max-width: 575px) {
-  .adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li a {
+  .adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li a {
     font-size: 14px;
     padding: 4px 8px;
   }
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li a:hover {
+.adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li a:hover {
   transition: all 0.5s ease;
   text-decoration: none;
   border-color: #82FAD2;
   color: #82FAD2;
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li a.active {
+.adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection ul li a.active {
   border-color: #82FAD2;
   color: #82FAD2;
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection.prcieFilterSection {
+.adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection.prcieFilterSection {
   padding-left: 50px;
   position: relative;
 }
 @media (max-width: 1200px) {
-  .adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection.prcieFilterSection {
+  .adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection.prcieFilterSection {
     padding-left: 0;
     margin-top: 40px;
   }
 }
-.adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection.prcieFilterSection::before {
+.adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection.prcieFilterSection::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1182,22 +1182,22 @@ footer .footercontents ul li a:hover {
   background-color: #DBEDE5;
 }
 @media (max-width: 1200px) {
-  .adminReightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection.prcieFilterSection::before {
+  .adminRightSide.CreateNFTSections .galleryFilterSection .NFTFilterSection.prcieFilterSection::before {
     display: none;
   }
 }
-.adminReightSide.CreateNFTSections .NFTCardSections {
+.adminRightSide.CreateNFTSections .NFTCardSections {
   position: relative;
   width: 100%;
   max-width: 1050px;
   margin: 80px auto 0;
   text-align: center;
 }
-.adminReightSide.CreateNFTSections .NFTCardSections .NFTCard {
+.adminRightSide.CreateNFTSections .NFTCardSections .NFTCard {
   margin-bottom: 50px;
   position: relative;
 }
-.adminReightSide.CreateNFTSections .NFTCardSections .NFTCard .NFTuserCard {
+.adminRightSide.CreateNFTSections .NFTCardSections .NFTCard .NFTuserCard {
   width: 200px;
   height: 200px;
   border-radius: 20px;
@@ -1205,59 +1205,59 @@ footer .footercontents ul li a:hover {
   margin: 0 auto 20px;
 }
 @media (max-width: 575px) {
-  .adminReightSide.CreateNFTSections .NFTCardSections .NFTCard .NFTuserCard {
+  .adminRightSide.CreateNFTSections .NFTCardSections .NFTCard .NFTuserCard {
     width: 150px;
     height: 150px;
   }
 }
 @media (max-width: 400px) {
-  .adminReightSide.CreateNFTSections .NFTCardSections .NFTCard .NFTuserCard {
+  .adminRightSide.CreateNFTSections .NFTCardSections .NFTCard .NFTuserCard {
     width: 100px;
     height: 100px;
   }
 }
-.adminReightSide.CreateNFTSections .NFTCardSections .NFTCard .NFTuserCard img {
+.adminRightSide.CreateNFTSections .NFTCardSections .NFTCard .NFTuserCard img {
   width: 100%;
   height: 100%;
 }
-.adminReightSide.CreateNFTSections .NFTCardSections h2 {
+.adminRightSide.CreateNFTSections .NFTCardSections h2 {
   font-size: 24px;
   font-weight: 400;
   color: #1E1E1E;
   margin: 0 0 10px 0;
 }
 @media (max-width: 575px) {
-  .adminReightSide.CreateNFTSections .NFTCardSections h2 {
+  .adminRightSide.CreateNFTSections .NFTCardSections h2 {
     font-size: 18px;
   }
 }
-.adminReightSide.CreateNFTSections .NFTCardSections p {
+.adminRightSide.CreateNFTSections .NFTCardSections p {
   font-size: 18px;
   font-weight: bold;
   margin: 0;
 }
 @media (max-width: 575px) {
-  .adminReightSide.CreateNFTSections .NFTCardSections p {
+  .adminRightSide.CreateNFTSections .NFTCardSections p {
     font-size: 16px;
   }
 }
-.adminReightSide.CreateNFTSections .NFTNameSection {
+.adminRightSide.CreateNFTSections .NFTNameSection {
   position: relative;
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
 }
-.adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard {
+.adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard {
   display: flex;
   align-items: center;
   position: relative;
 }
 @media (max-width: 480px) {
-  .adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard {
+  .adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard {
     flex-direction: column;
   }
 }
-.adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_img {
+.adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_img {
   width: 200px;
   height: 180px;
   background-color: #F4F4F4;
@@ -1266,25 +1266,25 @@ footer .footercontents ul li a:hover {
   margin-right: 40px;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_img {
+  .adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_img {
     width: 150px;
     height: 150px;
   }
 }
 @media (max-width: 480px) {
-  .adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_img {
+  .adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_img {
     margin-bottom: 30px;
     margin-right: 0;
   }
 }
-.adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_img img {
+.adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_img img {
   width: 100%;
   height: 100%;
 }
-.adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName {
+.adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName {
   position: relative;
 }
-.adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName h2 {
+.adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName h2 {
   font-size: 30px;
   font-weight: 600;
   color: #1E1E1E;
@@ -1292,30 +1292,30 @@ footer .footercontents ul li a:hover {
   text-transform: uppercase;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName h2 {
+  .adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName h2 {
     font-size: 20px;
   }
 }
-.adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName span {
+.adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName span {
   font-size: 20px;
   color: #1E1E1E;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName span {
+  .adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName span {
     font-size: 18px;
   }
 }
-.adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName p {
+.adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName p {
   font-size: 30px;
   color: #46D9A8;
   font-weight: 500;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName p {
+  .adminRightSide.CreateNFTSections .NFTNameSection .NFTNameCard .NFTNameCard_userName p {
     font-size: 22px;
   }
 }
-.adminReightSide.CreateNFTSections .NFTDescriptions {
+.adminRightSide.CreateNFTSections .NFTDescriptions {
   position: relative;
   text-align: center;
   width: 100%;
@@ -1323,11 +1323,11 @@ footer .footercontents ul li a:hover {
   margin: 120px auto 0;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .NFTDescriptions {
+  .adminRightSide.CreateNFTSections .NFTDescriptions {
     margin: 60px auto 0;
   }
 }
-.adminReightSide.CreateNFTSections .NFTDescriptions h2 {
+.adminRightSide.CreateNFTSections .NFTDescriptions h2 {
   font-size: 25px;
   color: #1E1E1E;
   font-weight: normal;
@@ -1335,12 +1335,12 @@ footer .footercontents ul li a:hover {
   margin-bottom: 50px;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .NFTDescriptions h2 {
+  .adminRightSide.CreateNFTSections .NFTDescriptions h2 {
     font-size: 22px;
     margin-bottom: 20px;
   }
 }
-.adminReightSide.CreateNFTSections .NFTDescriptions h2::before {
+.adminRightSide.CreateNFTSections .NFTDescriptions h2::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1351,11 +1351,11 @@ footer .footercontents ul li a:hover {
   background-color: #DBEDE5;
 }
 @media (max-width: 480px) {
-  .adminReightSide.CreateNFTSections .NFTDescriptions h2::before {
+  .adminRightSide.CreateNFTSections .NFTDescriptions h2::before {
     display: none;
   }
 }
-.adminReightSide.CreateNFTSections .NFTDescriptions h2::after {
+.adminRightSide.CreateNFTSections .NFTDescriptions h2::after {
   content: "";
   position: absolute;
   left: auto;
@@ -1366,11 +1366,11 @@ footer .footercontents ul li a:hover {
   background-color: #DBEDE5;
 }
 @media (max-width: 480px) {
-  .adminReightSide.CreateNFTSections .NFTDescriptions h2::after {
+  .adminRightSide.CreateNFTSections .NFTDescriptions h2::after {
     display: none;
   }
 }
-.adminReightSide.CreateNFTSections .NFTDescriptions p {
+.adminRightSide.CreateNFTSections .NFTDescriptions p {
   width: 100%;
   max-width: 750px;
   margin: 0 auto 40px;
@@ -1378,14 +1378,14 @@ footer .footercontents ul li a:hover {
   color: #1E1E1E;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .NFTDescriptions p {
+  .adminRightSide.CreateNFTSections .NFTDescriptions p {
     max-width: 100%;
     text-align: left;
     padding: 0 20px;
     font-size: 18px;
   }
 }
-.adminReightSide.CreateNFTSections .NFTDescriptions a {
+.adminRightSide.CreateNFTSections .NFTDescriptions a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1402,20 +1402,20 @@ footer .footercontents ul li a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .NFTDescriptions a {
+  .adminRightSide.CreateNFTSections .NFTDescriptions a {
     font-size: 18px;
     width: fit-content;
     padding: 10px 30px;
   }
 }
-.adminReightSide.CreateNFTSections .NFTDescriptions a:hover {
+.adminRightSide.CreateNFTSections .NFTDescriptions a:hover {
   text-decoration: none;
 }
-.adminReightSide.CreateNFTSections .NFTDescriptions a:focus {
+.adminRightSide.CreateNFTSections .NFTDescriptions a:focus {
   box-shadow: none;
   outline: none;
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink {
+.adminRightSide.CreateNFTSections .CreatesharingLink {
   position: relative;
   border-top: solid 2px #FF4C4C;
   margin-top: 120px;
@@ -1423,11 +1423,11 @@ footer .footercontents ul li a:hover {
   margin-bottom: 120px;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .CreatesharingLink {
+  .adminRightSide.CreateNFTSections .CreatesharingLink {
     margin-bottom: 60px;
   }
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink h4 {
+.adminRightSide.CreateNFTSections .CreatesharingLink h4 {
   text-align: center;
   font-size: 16px;
   text-transform: uppercase;
@@ -1435,12 +1435,12 @@ footer .footercontents ul li a:hover {
   margin-bottom: 40px;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .CreatesharingLink h4 {
+  .adminRightSide.CreateNFTSections .CreatesharingLink h4 {
     font-size: 16px;
     padding: 0 12px;
   }
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul {
   list-style: none;
   padding: 0;
   margin: 0 0 60px 0;
@@ -1449,40 +1449,40 @@ footer .footercontents ul li a:hover {
   justify-content: center;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .CreatesharingLink ul {
+  .adminRightSide.CreateNFTSections .CreatesharingLink ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
   }
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul li {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul li {
   margin-bottom: 20px;
   position: relative;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .CreatesharingLink ul li {
+  .adminRightSide.CreateNFTSections .CreatesharingLink ul li {
     margin-right: 0 !important;
     margin-bottom: 50px;
   }
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul li input {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul li input {
   border: 2px #1E1E1E solid;
   height: 50px;
   padding: 0 20px;
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul li input:focus {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul li input:focus {
   box-shadow: none;
   outline: none;
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul li:first-child {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul li:first-child {
   margin-right: 80px;
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul li:first-child input {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul li:first-child input {
   width: 260px;
   border-radius: 20px;
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul li:first-child::before {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul li:first-child::before {
   content: "+";
   position: absolute;
   left: auto;
@@ -1493,7 +1493,7 @@ footer .footercontents ul li a:hover {
   color: #1E1E1E;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .CreatesharingLink ul li:first-child::before {
+  .adminRightSide.CreateNFTSections .CreatesharingLink ul li:first-child::before {
     right: 0;
     left: 44%;
     margin: auto;
@@ -1501,14 +1501,14 @@ footer .footercontents ul li a:hover {
     top: 52px;
   }
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul li:nth-child(2) {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul li:nth-child(2) {
   margin-right: 50px;
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul li:nth-child(2) input {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul li:nth-child(2) input {
   width: 200px;
   border-radius: 15px;
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul li:nth-child(2)::before {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul li:nth-child(2)::before {
   content: "=";
   position: absolute;
   left: auto;
@@ -1519,7 +1519,7 @@ footer .footercontents ul li a:hover {
   color: #1E1E1E;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .CreatesharingLink ul li:nth-child(2)::before {
+  .adminRightSide.CreateNFTSections .CreatesharingLink ul li:nth-child(2)::before {
     right: 0;
     left: 44%;
     margin: auto;
@@ -1527,11 +1527,11 @@ footer .footercontents ul li a:hover {
     top: 52px;
   }
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink ul li:last-child input {
+.adminRightSide.CreateNFTSections .CreatesharingLink ul li:last-child input {
   width: 150px;
   border-radius: 20px;
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink a {
+.adminRightSide.CreateNFTSections .CreatesharingLink a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1548,27 +1548,27 @@ footer .footercontents ul li a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .CreatesharingLink a {
+  .adminRightSide.CreateNFTSections .CreatesharingLink a {
     padding: 10px 30px;
     width: fit-content;
     font-size: 18px;
   }
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink a:hover {
+.adminRightSide.CreateNFTSections .CreatesharingLink a:hover {
   text-decoration: none;
 }
-.adminReightSide.CreateNFTSections .CreatesharingLink a:focus {
+.adminRightSide.CreateNFTSections .CreatesharingLink a:focus {
   box-shadow: none;
   outline: none;
 }
-.adminReightSide.CreateNFTSections .yourLinkisReasy {
+.adminRightSide.CreateNFTSections .link-ready {
   position: relative;
   margin-top: 120px;
   border-top: solid 2px #FF4C4C;
   padding-top: 10px;
   width: 100%;
 }
-.adminReightSide.CreateNFTSections .yourLinkisReasy h4 {
+.adminRightSide.CreateNFTSections .link-ready h4 {
   text-align: center;
   font-size: 16px;
   text-transform: uppercase;
@@ -1576,11 +1576,11 @@ footer .footercontents ul li a:hover {
   margin-bottom: 60px;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .yourLinkisReasy h4 {
+  .adminRightSide.CreateNFTSections .link-ready h4 {
     font-size: 16px;
   }
 }
-.adminReightSide.CreateNFTSections .yourLinkisReasy h3 {
+.adminRightSide.CreateNFTSections .link-ready h3 {
   font-size: 25px;
   font-weight: 600;
   color: #1E1E1E;
@@ -1588,11 +1588,11 @@ footer .footercontents ul li a:hover {
   text-align: center;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .yourLinkisReasy h3 {
+  .adminRightSide.CreateNFTSections .link-ready h3 {
     font-size: 20px;
   }
 }
-.adminReightSide.CreateNFTSections .yourLinkisReasy form {
+.adminRightSide.CreateNFTSections .link-ready form {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
@@ -1600,7 +1600,7 @@ footer .footercontents ul li a:hover {
   align-items: center;
   margin-bottom: 80px;
 }
-.adminReightSide.CreateNFTSections .yourLinkisReasy form input {
+.adminRightSide.CreateNFTSections .link-ready form input {
   width: calc(100% - 130px);
   height: 55px;
   border: 2px solid transparent;
@@ -1611,13 +1611,13 @@ footer .footercontents ul li a:hover {
   margin-right: -20px;
   transition: all 0.5s ease;
 }
-.adminReightSide.CreateNFTSections .yourLinkisReasy form input:focus {
+.adminRightSide.CreateNFTSections .link-ready form input:focus {
   box-shadow: none;
   outline: none;
   border: solid 2px #1E1E1E;
   transition: all 0.5s ease;
 }
-.adminReightSide.CreateNFTSections .yourLinkisReasy form button {
+.adminRightSide.CreateNFTSections .link-ready form button {
   background-color: #1E1E1E;
   width: 120px;
   color: #E3FFF1;
@@ -1627,30 +1627,30 @@ footer .footercontents ul li a:hover {
   border-radius: 15px;
   cursor: pointer;
 }
-.adminReightSide.CreateNFTSections .yourLinkisReasy form button:focus {
+.adminRightSide.CreateNFTSections .link-ready form button:focus {
   box-shadow: none;
   outline: one;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard {
+.adminRightSide.CreateNFTSections .influencerDashboard {
   position: relative;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard h1 {
+.adminRightSide.CreateNFTSections .influencerDashboard h1 {
   font-size: 35px;
   font-weight: 600;
   margin-bottom: 60px;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .influencerDashboard h1 {
+  .adminRightSide.CreateNFTSections .influencerDashboard h1 {
     font-size: 22px;
   }
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .influencerDashboard .dashboardPage .form-group input {
+  .adminRightSide.CreateNFTSections .influencerDashboard .dashboardPage .form-group input {
     font-size: 18px;
     padding-left: 20px;
   }
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .dashboardPage .form-group label {
+.adminRightSide.CreateNFTSections .influencerDashboard .dashboardPage .form-group label {
   background-color: #82FAD2;
   left: 2px;
   height: 56px;
@@ -1658,7 +1658,7 @@ footer .footercontents ul li a:hover {
   color: #1E1E1E;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .influencerDashboard .dashboardPage .form-group label {
+  .adminRightSide.CreateNFTSections .influencerDashboard .dashboardPage .form-group label {
     position: relative;
     width: 100%;
     border-radius: 15px;
@@ -1666,23 +1666,23 @@ footer .footercontents ul li a:hover {
     font-size: 16px;
   }
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .dashboardPage .form-group span {
+.adminRightSide.CreateNFTSections .influencerDashboard .dashboardPage .form-group span {
   background-color: #1E1E1E;
   color: #FFFFFF;
   top: 1px;
   height: 58px;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .influencerDashboard .dashboardPage .form-group span {
+  .adminRightSide.CreateNFTSections .influencerDashboard .dashboardPage .form-group span {
     position: absolute;
     top: 60px;
     font-size: 16px;
   }
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection {
   position: relative;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection h2 {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection h2 {
   font-size: 22px;
   text-transform: uppercase;
   color: #46D9A8;
@@ -1691,7 +1691,7 @@ footer .footercontents ul li a:hover {
   padding-left: 15px;
   margin-bottom: 40px;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection h2::before {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection h2::before {
   content: "";
   position: absolute;
   left: 0px;
@@ -1700,63 +1700,63 @@ footer .footercontents ul li a:hover {
   background-color: #46D9A8;
   height: 100%;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection .tableContent:last-child {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection .tableContent:last-child {
   border-bottom: solid 2px #DBEDE5;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection .tableContent .optionsButtons .ViewStatusButtons {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection .tableContent .optionsButtons .ViewStatusButtons {
   width: 225px;
   border-color: #82FAD2;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection .tableContent .optionsButtons .ViewStatusButtons:hover {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection .tableContent .optionsButtons .ViewStatusButtons:hover {
   background-color: #82FAD2;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection table.table {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection table.table {
   width: 100%;
 }
 @media (max-width: 640px) {
-  .adminReightSide.CreateNFTSections .influencerDashboard .customTableSection table.table {
+  .adminRightSide.CreateNFTSections .influencerDashboard .customTableSection table.table {
     display: block;
     overflow-x: auto;
   }
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr:first-child th {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr:first-child th {
   border-top: none;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr th {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr th {
   font-size: 24px;
   text-transform: uppercase;
   color: #1E1E1E;
   font-weight: normal;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr th {
+  .adminRightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr th {
     font-size: 20px;
   }
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr th:last-child {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr th:last-child {
   text-align: right;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr td {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr td {
   font-size: 18px;
   vertical-align: middle;
   padding: 25px 15px;
 }
 @media (max-width: 767px) {
-  .adminReightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr td {
+  .adminRightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr td {
     font-size: 14px;
   }
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr td:last-child {
+.adminRightSide.CreateNFTSections .influencerDashboard .customTableSection table.table tr td:last-child {
   text-align: right;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .loadMoreButton {
+.adminRightSide.CreateNFTSections .influencerDashboard .loadMoreButton {
   text-align: right;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin-top: 40px;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .loadMoreButton a {
+.adminRightSide.CreateNFTSections .influencerDashboard .loadMoreButton a {
   border: 1px solid #82FAD2;
   background-color: transparent;
   color: #82FAD2;
@@ -1767,7 +1767,7 @@ footer .footercontents ul li a:hover {
   padding: 6px 20px;
   border-radius: 10px;
 }
-.adminReightSide.CreateNFTSections .influencerDashboard .loadMoreButton a:hover {
+.adminRightSide.CreateNFTSections .influencerDashboard .loadMoreButton a:hover {
   text-decoration: none;
   cursor: pointer;
 }
