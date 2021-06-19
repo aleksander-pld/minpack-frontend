@@ -4,6 +4,7 @@ import { ethers, Contract } from "ethers";
 import NftReseller from "../contracts/NftReseller.json";
 import swal from "sweetalert";
 import axios from "axios";
+import { shortenAddress } from '../utils';
 
 const Offer = (props) => {
   const history = useHistory()
@@ -192,7 +193,7 @@ const Offer = (props) => {
                 </div>
                 <div className="NFTNameCard_userName">
                   <h2>{offer.nft.name}</h2>
-                  <span>{offer.artist}</span>
+                  <span>{shortenAddress(offer.artist)}</span>
                   <p>{offer.price} ETH</p>
                   <span>Category: {offer.nft.category}</span>
                 </div>

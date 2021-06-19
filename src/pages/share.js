@@ -5,6 +5,7 @@ import { ethers, Contract } from "ethers";
 import NFT721 from "../contracts/TestNft721Token.json";
 import swal from "sweetalert";
 import Thanks from "./thanks";
+import { shortenAddress } from '../utils';
 
 const Share = () => {
   const history = useHistory();
@@ -80,7 +81,7 @@ const Share = () => {
             <div className="bgbuyWithMetamask">
               <div className="topNFTNameBox">
                 <h1>{share.offer.nft.name}</h1>
-                <span>{share.offer.artist}</span>
+                <span>{shortenAddress(share.offer.artist)}</span>
                 <p>{Number(share.margin) + Number(share.offer.price)} ETH</p>
               </div>
               <div className="ThanksNFTPlaceholder">
