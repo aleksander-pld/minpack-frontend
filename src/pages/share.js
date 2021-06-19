@@ -19,7 +19,6 @@ const Share = () => {
   const [txdone, settxdone] = useState(false);
   const [loader, setloader] = useState(false)
   const [tx, settx] = useState("")
-  const [nftaddress, setnftaddress] = useState("")
 
   useEffect(async () => {
     const fetchShareDetails = async () => {

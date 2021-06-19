@@ -1,51 +1,52 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+
 export class main extends Component {
   render() {
     return (
       <div>
-        <div class="main_slider_sections">
-          <div class="mainSliderOverlay">
-            <img src="./assets/images/homeBackgrounds.png" alt="" />
+        <div className="main_slider_sections">
+          <div className="mainSliderOverlay">
+            <img src="./assets/images/homeBackgrounds.png" alt=""/>
           </div>
-          <div class="hometopButton">
+          <div className="hometopButton">
             <Link to="/artist">
-              <a href="" class="homepageTopButton">
+              <a href="" className="homepageTopButton">
                 Enter App
               </a>
             </Link>
           </div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
           <div
-            class="homeSliderContent"
+            className="homeSliderContent"
             style={{ position: "absolute", marginBottom: "10px" }}
           >
-            <img src="/assets/images/logo.svg" alt="" />
+            <img src="/assets/images/logo.svg" alt=""/>
             <p>
               MintPact is the world’s first NFT based Affiliate Protocol that
               enables trustless collaboration between Creators and Marketers.
@@ -55,45 +56,45 @@ export class main extends Component {
             </a>
           </div>
         </div>
-        <div class="NoInvestmentSection">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="NoInvestmentContent">
+        <div className="NoInvestmentSection">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-4">
+                <div className="NoInvestmentContent">
                   <div>
                     <h3>Trustless</h3>
                   </div>
                   <p>
                     <h5>
                       Always stay in control
-                      <br /> of your assets & funds.
+                      <br/> of your assets & funds.
                     </h5>
                   </p>
                 </div>
               </div>
 
-              <div class="col-lg-4">
-                <div class="NoInvestmentContent">
+              <div className="col-lg-4">
+                <div className="NoInvestmentContent">
                   <div>
                     <h3>Collaborative</h3>
                   </div>
                   <p>
                     <h5>
-                      Bringing together leading <br />
+                      Bringing together leading <br/>
                       creators & influencers.
                     </h5>
                   </p>
                 </div>
               </div>
 
-              <div class="col-lg-4">
-                <div class="NoInvestmentContent lastNoborder">
+              <div className="col-lg-4">
+                <div className="NoInvestmentContent lastNoborder">
                   <div>
                     <h3>Earn</h3>
                   </div>
                   <p>
                     <h5>
-                      Make a steady income <br />
+                      Make a steady income <br/>
                       without any investment.
                     </h5>
                   </p>
@@ -103,36 +104,36 @@ export class main extends Component {
           </div>
         </div>
 
-        <div class="howItWorkSection">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="commoneHeading">
+        <div className="howItWorkSection">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="commoneHeading">
                   <h2>How It Works</h2>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="howItWorkscount lastNoborder">
+              <div className="col-md-4">
+                <div className="howItWorkscount lastNoborder">
                   <h3>1</h3>
                   <p>
-                    Create offers <br />
+                    Create offers <br/>
                     For NFTs
                   </p>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="howItWorkscount">
+              <div className="col-md-4">
+                <div className="howItWorkscount">
                   <h3>2</h3>
                   <p>
-                    Marketers add a margin <br />& promote your NFT
+                    Marketers add a margin <br/>& promote your NFT
                   </p>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="howItWorkscount">
+              <div className="col-md-4">
+                <div className="howItWorkscount">
                   <h3>3</h3>
                   <p>
-                    Get paid instantly <br />
+                    Get paid instantly <br/>
                     on a successful sale.{" "}
                   </p>
                 </div>
@@ -141,16 +142,16 @@ export class main extends Component {
           </div>
         </div>
 
-        <div class="HomeFAQSection">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="commoneHeading">
+        <div className="HomeFAQSection">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="commoneHeading">
                   <h2>Frequently Asked Questions</h2>
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="faqQuestions">
+              <div className="col-md-6">
+                <div className="faqQuestions">
                   <h3>Q. Who should use Minpact? </h3>
                   <p>
                     A. Mintpact is a Web3 collaboration tool for NFT owners &
@@ -161,8 +162,8 @@ export class main extends Component {
                   </p>
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="faqQuestions">
+              <div className="col-md-6">
+                <div className="faqQuestions">
                   <h3>Q. Does Mintpact take custody of NFTs or payments?</h3>
                   <p>
                     A. Mintpact is a non-custodial De-Fi platform and never
@@ -174,8 +175,8 @@ export class main extends Component {
                 </div>
               </div>
 
-              <div class="col-md-6">
-                <div class="faqQuestions">
+              <div className="col-md-6">
+                <div className="faqQuestions">
                   <h3>Q. What Problem Does Mintpact Solve?</h3>
                   <p>
                     A. Mintpact has solves the fundamental problem afflicting
@@ -187,8 +188,8 @@ export class main extends Component {
                 </div>
               </div>
 
-              <div class="col-md-6">
-                <div class="faqQuestions">
+              <div className="col-md-6">
+                <div className="faqQuestions">
                   <h3>Q. What are some use cases for Minpact?</h3>
                   <p>
                     A. Mintpact’s can be used to promote all tokenised goods
@@ -199,15 +200,15 @@ export class main extends Component {
                 </div>
               </div>
 
-              <div class="col-md-6">
-                <div class="faqQuestions">
+              <div className="col-md-6">
+                <div className="faqQuestions">
                   <h3> Q. How does Mintpact make money?</h3>
                   <p>A. Mintpact charges a commission on every transaction.</p>
                 </div>
               </div>
 
-              <div class="col-md-6">
-                <div class="faqQuestions">
+              <div className="col-md-6">
+                <div className="faqQuestions">
                   <h3>Q. What token standards does Mintpact Support?</h3>
                   <p>
                     A. Mintpact currently supports ERC-721 tokens. More token
@@ -221,20 +222,20 @@ export class main extends Component {
         </div>
 
         <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="footercontents">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="footercontents">
                   <p>Copyright Mintpact © 2021</p>
                   <ul>
                     <li>
-                        <a href="https://discord.gg/bVaXT2VT" target="_blank">Discord</a>
+                      <a href="https://discord.gg/bVaXT2VT" target="_blank">Discord</a>
                     </li>
                     <li>
-                        <a href="https://www.twitter.com/mintpact" target="_blank">Twitter</a>
-                      </li>
+                      <a href="https://www.twitter.com/mintpact" target="_blank">Twitter</a>
+                    </li>
                     <li>
-                         <a href="https://github.com/Mintpact" target="_blank">Github</a>
+                      <a href="https://github.com/Mintpact" target="_blank">Github</a>
                     </li>
                     <li>
                       <a href="https://t.me/joinchat/MIlqWUZUAs8xODdl" target="_blank">Telegram</a>

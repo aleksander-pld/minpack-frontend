@@ -287,13 +287,13 @@ const Offer = (props) => {
                   <form action="">
                     <input
                       type="text"
-                      value={`/nftname2/${shareId}`}
+                      value={`/share/${shareId}`}
                       style={{ width: "1000px" }}
                     />
-                    <Link to={`/nftname2/${shareId}`}>
+                    <Link to={`/share/${shareId}`}>
                       <button
                         onClick={() => {
-                          navigator.clipboard.writeText(`/nftname2/${shareId}`);
+                          navigator.clipboard.writeText(`/share/${shareId}`);
                         }}
                       >
                         Go To LINK

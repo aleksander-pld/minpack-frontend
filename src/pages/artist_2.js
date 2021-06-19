@@ -102,23 +102,23 @@ function Artist_2() {
   return (
     <div>
       {account == "" ? (
-        <div class="ArtistSection">
-          <div class="iAmArtis">
-            <div class="iAmArtis_overlay">
+        <div className="ArtistSection">
+          <div className="iAmArtis">
+            <div className="iAmArtis_overlay">
               <img src="/assets/images/paint-palette.svg" alt=""/>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <h1>
               I Am an
-              <br class="removeBrTag"/>
+              <br className="removeBrTag"/>
               <span>Artist</span>
             </h1>
             <button
@@ -130,31 +130,31 @@ function Artist_2() {
             >
               Connect Wallet
             </button>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
           </div>
-          <div class="iAmInfluencer">
-            <div class="iAmInfluencer_overlay">
+          <div className="iAmInfluencer">
+            <div className="iAmInfluencer_overlay">
               <img src="/assets/images/phone_icons.svg" alt=""/>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <h1>
               I Am an
-              <br class="removeBrTag"/>
+              <br className="removeBrTag"/>
               <span>Influencer</span>
             </h1>
             <button
@@ -165,14 +165,14 @@ function Artist_2() {
             >
               Connect Wallet
             </button>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
           </div>
         </div>
       ) : (

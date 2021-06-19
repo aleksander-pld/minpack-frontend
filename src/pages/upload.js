@@ -139,7 +139,7 @@ const Upload = () => {
             <ul>
               <li>
                 <a href="">
-                  <Link to="/approve">
+                  <Link to="/upload">
                     <img src="/assets/images/SubmitNFT.svg" alt=""/>
                     <span>Submit NFT</span>
                   </Link>

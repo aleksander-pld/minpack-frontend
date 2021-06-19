@@ -5,17 +5,17 @@ export class SubmittingNFT extends Component {
   render() {
     return (
       <div>
-        <div class="adminLayoutSection CreatingNFTMain">
-          <div class="adminLeftside">
-            <div class="logoSections">
+        <div className="adminLayoutSection CreatingNFTMain">
+          <div className="adminLeftside">
+            <div className="logoSections">
               <img src="/assets/images/logo.svg" alt=""/>
             </div>
-            <div class="leftsideMenus">
+            <div className="leftsideMenus">
               <h3>Artist</h3>
               <ul>
                 <li>
                   <a href="">
-                    <Link to="/approve">
+                    <Link to="/upload">
                       <img src="/assets/images/SubmitNFT.svg" alt=""/>
                       <span>Submit NFT</span>
                     </Link>
@@ -34,35 +34,35 @@ export class SubmittingNFT extends Component {
             </div>
 
           </div>
-          <div class="adminRightSide CreateNFTSections">
-            <div class="responsiveHeader">
-              <nav class="navbar navbar-expand-xl navbar-light">
-                <a class="navbar-brand" href="#">
+          <div className="adminRightSide CreateNFTSections">
+            <div className="responsiveHeader">
+              <nav className="navbar navbar-expand-xl navbar-light">
+                <a className="navbar-brand" href="#">
                   <img src="/assets/images/logo.svg" alt=""/>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <img src="/assets/images/menu_icons.svg" alt=""/>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav" style={{ marginTop: '30px' }}>
+                <div className="collapse navbar-collapse" id="navbarNav">
+                  <ul className="navbar-nav" style={{ marginTop: '30px' }}>
                     <h3>Artist</h3>
-                    <li class="nav-item active">
-                      <a class="nav-link" href=""><img src="/assets/images/SubmitNFT.svg" alt=""/> Submit NFT</a>
+                    <li className="nav-item active">
+                      <a className="nav-link" href=""><img src="/assets/images/SubmitNFT.svg" alt=""/> Submit NFT</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="">
+                    <li className="nav-item">
+                      <a className="nav-link" href="">
                         <img src="/assets/images/dashboard.png" alt=""/> Dashboard
                       </a>
                     </li>
                   </ul>
-                  <ul class="navbar-nav" style={{ marginTop: '30px' }}>
+                  <ul className="navbar-nav" style={{ marginTop: '30px' }}>
                     <h3>Influencer</h3>
-                    <li class="nav-item">
-                      <a class="nav-link" href=""> <img src="/assets/images/Gallery.svg" alt=""/> Gallery</a>
+                    <li className="nav-item">
+                      <a className="nav-link" href=""> <img src="/assets/images/Gallery.svg" alt=""/> Gallery</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="">
+                    <li className="nav-item">
+                      <a className="nav-link" href="">
                         <img src="/assets/images/dashboard.png" alt=""/> Dashboard
                       </a>
                     </li>
@@ -70,23 +70,23 @@ export class SubmittingNFT extends Component {
                 </div>
               </nav>
             </div>
-            <div class="submmitingNFTSections">
+            <div className="submmitingNFTSections">
               <h1 style={{ marginBottom: '20px' }}>Thank you for submitting your NFT.</h1>
               <p>Please give us 24 hours to approve your request.</p>
-              <Link to="/admindashboard"><a href="" class="ViewYourDashboard">View Your Dashboard</a></Link>
-              <Link to="/approve"><a href="" class="UploadAnotherNFT">Upload Another NFT</a></Link>
-              <br /><br />
-              <Link to="/gallery"><a href="" style={{ textDecoration: "none" }}
-                                     class="ViewYourDashboard">GALLERY</a></Link>
+              <Link to="/admindashboard"><a href="" className="ViewYourDashboard">View Your Dashboard</a></Link>
+              <Link to="/upload"><a href="" className="UploadAnotherNFT">Upload Another NFT</a></Link>
+              <br/><br/>
+              <Link to="/gallery">
+                <a href="" style={{ textDecoration: "none" }} className="ViewYourDashboard">GALLERY</a></Link>
             </div>
           </div>
         </div>
         <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="footercontents">
-                  <p>Copyright Mintpact © 2021</p>
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="footercontents">
+                  <p>© Mintpact 2021</p>
                   <ul>
                     <li><a href="https://discord.gg/bVaXT2VT" target="_blank">Discord</a></li>
                     <li>

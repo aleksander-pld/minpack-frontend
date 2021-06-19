@@ -5,10 +5,10 @@ export class footer extends Component {
     return (
       <div>
         <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="footercontents">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="footercontents">
                   <p>Copyright Mintpact © 2021</p>
                   <ul>
                     <li>
