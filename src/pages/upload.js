@@ -5,6 +5,7 @@ import swal from "sweetalert";
 import axios from "axios";
 import NftReseller from "../contracts/NftReseller.json";
 import NFT721 from '../contracts/TestNft721Token.json';
+import ModalComponent from '../components/modal';
 
 const Upload = () => {
   const [price, setprice] = useState();
@@ -15,6 +16,7 @@ const Upload = () => {
   const [description, setDescription] = useState();
   const [isAccepted, setIsAccepted] = useState(false);
   const [isTransactionPending, setIsTransactionPending] = useState(false);
+  const [modalText, setModalText] = useState({ message: '', tip: '' });
   const [nfts, setNfts] = useState([]);
   const [selectedNft, setSelectedNft] = useState(null)
   const [step, setStep] = useState(0)
@@ -63,6 +65,10 @@ const Upload = () => {
 
     try {
       setIsTransactionPending(true);
+      setModalText({
+        message: 'Uploading your NFT Requires 2 steps',
+        tip: 'Step 1 - Approve Mintpact to Transact with your wallet'
+      })
 
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
@@ -76,7 +82,18 @@ const Upload = () => {
       const nft721Contract = new Contract(nftAddress, NFT721.abi, signer);
 
       const approveTx = await nft721Contract.approve("0xCB996552a7ba1596C8B71395D73166026dfA8dFD", nftTokenId);
+
+      setModalText({
+        message: 'Waiting For Your Transaction to Confirm',
+        tip: 'Please do not refresh your screeen or go back'
+      })
+
       await approveTx.wait();
+
+      setModalText({
+        message: 'Uploading your NFT Requires 2 steps',
+        tip: 'Step 2 - Submit Offer'
+      })
 
       const nftResellerContract = new Contract(
         "0xCB996552a7ba1596C8B71395D73166026dfA8dFD",
@@ -87,6 +104,12 @@ const Upload = () => {
       const priceInWei = ethers.utils.parseEther(price.toString());
 
       const offerTx = await nftResellerContract.createOffer(nftAddress, nftTokenId, priceInWei);
+
+      setModalText({
+        message: 'Waiting For Your Transaction to Confirm',
+        tip: 'Please do not refresh your screeen or go back'
+      })
+
       const offerTxData = await offerTx.wait();
       const offerId = offerTxData.events[0].args.offerId.toString()
 
@@ -109,6 +132,7 @@ const Upload = () => {
       await axios
         .post("https://mintpactnftbackend.herokuapp.com/api/offer", data)
 
+      setIsTransactionPending(false);
       history.push("/submitnft")
     } catch (e) {
       console.error(e);
@@ -479,6 +503,12 @@ const Upload = () => {
           </div>
         </div>
       </footer>
+
+      <ModalComponent
+        isOpen={isTransactionPending}
+        message={modalText.message}
+        tip={modalText.tip}
+      />
     </>
   );
 };

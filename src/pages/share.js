@@ -7,6 +7,7 @@ import { parseEther } from "ethers/lib/utils";
 import swal from "sweetalert";
 import Thanks from "./thanks";
 import { shortenAddress } from '../utils';
+import Loader from '../components/loader';
 
 const Share = () => {
   const history = useHistory();
@@ -83,10 +84,10 @@ const Share = () => {
     }
   };
 
-  if (isLoading || !share) {
+  if (isLoading) {
     return (
-      <div style={{ height: "100vh" }}>
-        <div className="loader"/>
+      <div style={{ height: "100vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
+        <Loader isLoading={!isLoading} />
       </div>
     );
   }
