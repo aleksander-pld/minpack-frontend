@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { useHistory, } from "react-router-dom";
 import { ethers } from "ethers";
+import ModalComponent from '../components/modal';
 
 const Select = () => {
   const [isLoading, setIsLoading] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   let history = useHistory();
 
@@ -32,7 +34,14 @@ const Select = () => {
         if (networkId === 4) {
           history.push(route)
         } else {
-          window.alert("Please select Rinkeby network on Metamask");
+          setIsModalOpen(true);
+
+          window.ethereum.on('chainChanged', (chainId) => {
+            if (chainId === '0x4') {
+              setIsModalOpen(false);
+              history.push(route);
+            }
+          });
         }
       } catch (e) {
         console.error(e);
@@ -120,6 +129,13 @@ const Select = () => {
         <br/>
         <br/>
       </div>
+
+      <ModalComponent
+        isOpen={isModalOpen}
+        message={`Please select
+        RINKEBY TEST NETWORK
+        to continue`}
+      />
     </div>
   );
 }

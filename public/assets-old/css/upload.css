@@ -1,0 +1,18 @@
+.NFTCard .icon-selected {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 24px !important;
+    height: auto !important;
+}
+
+.upload-actions {
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+}
+
+.upload-actions .btn-cancel {
+    width: 180px;
+    font-size: 22px;
+}

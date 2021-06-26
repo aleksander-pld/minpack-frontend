@@ -8,6 +8,7 @@ import swal from "sweetalert";
 import Thanks from "./thanks";
 import { shortenAddress } from '../utils';
 import Loader from '../components/loader';
+import ModalComponent from '../components/modal';
 
 const Share = () => {
   const history = useHistory();
@@ -16,6 +17,7 @@ const Share = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isSold, setIsSold] = useState(false);
   const [isTransactionPending, setIsTransactionPending] = useState(false);
+  const [modalText, setModalText] = useState({ message: '', tip: '' });
   const [share, setShare] = useState();
   const [txHash, setTxHash] = useState("")
 
@@ -54,6 +56,12 @@ const Share = () => {
 
   const onClickBuy = async () => {
     setIsTransactionPending(true)
+
+    setModalText({
+      message: `Confirm this Transaction with
+      your wallet to complete your purchase.`,
+      tip: ''
+    })
 
     try {
       if (window.ethereum) {
@@ -117,10 +125,6 @@ const Share = () => {
                     BUY WITH METAMASK
                   </button>
                 )}
-
-                <br/>
-                <br/>
-                {isTransactionPending ? <h4>Please wait while we process your transaction</h4> : <div/>}
               </div>
             </div>
           </div>
@@ -132,6 +136,12 @@ const Share = () => {
           </div>
         )
       )}
+
+      <ModalComponent
+        isOpen={isTransactionPending}
+        message={modalText.message}
+        tip={modalText.tip}
+      />
     </div>
   );
 }

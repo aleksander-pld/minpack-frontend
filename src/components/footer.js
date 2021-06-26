@@ -4,7 +4,7 @@ export class footer extends Component {
   render() {
     return (
       <div>
-        <footer>
+        <footer className="footer-app">
           <div className="container">
             <div className="row">
               <div className="col-sm-12">

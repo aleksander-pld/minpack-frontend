@@ -156,7 +156,7 @@ const Artist = () => {
         </div>
       </div>
 
-      <footer>
+      <footer className="footer-app">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">

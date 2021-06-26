@@ -1,0 +1,728 @@
+/* XL Device :1200px. */
+@media (min-width: 1450px) and (max-width: 1650px) {
+
+    .work-box-inner {
+        width: 480px;
+        height: 480px;
+    }
+    .work-box.boxs-one {
+        margin-right: -30px;
+    }
+    .work-box.boxs-three {
+        margin-left: -30px;
+    }
+    .work-box-wrapper {
+        display: inline-block;
+        width: 100%;
+        padding-left: 30px;
+    }
+
+
+
+
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .container {
+        max-width: 1250px;
+    }
+    .radial-circle {
+        width: 1100px;
+        height: 1100px;
+        left: 50%;
+        top: -400px;
+    }
+    .hero-text {
+        margin-top: -80px;
+    }
+    .hero-btn a {
+        font-size: 25px;
+        width: 280px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .hero-text p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .hero-text img {
+        width: 450px;
+    }
+    .hero-btn {
+        margin-top: 100px;
+    }
+    .about-tiem p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .work-text h2 {
+        font-size: 120px;
+    }
+    .work-text p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .circle-text {
+        top: -80px;
+        left: -36px;
+        width: 370px;
+    }
+    .lottie-box {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+    .mintpact-bx h4 {
+        font-size: 18px;
+    }
+    .mintpact-bx {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .circle-two {
+        width: 30%;
+    }
+    .faq-text p {
+        font-size: 16px;
+    }
+    .faq-text {
+        max-width: 550px;
+        margin: 30px 0;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    .footer-link ul li a {
+        font-size: 18px;
+    }
+    footer {
+        background: #C7C7C7;
+        padding: 30px 0;
+    }
+    .work-box-inner {
+        width: 430px;
+        height: 430px;
+    }
+    .area-title h2 {
+        font-size: 70px;
+    }
+    .faq-area {
+        padding-top: 50px;
+    }
+    .work-progress-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .container {
+        max-width: 1170px;
+    }
+    .radial-circle {
+        width: 1100px;
+        height: 1100px;
+        left: 50%;
+        top: -400px;
+    }
+    .hero-text {
+        margin-top: -80px;
+    }
+    .hero-btn a {
+        font-size: 25px;
+        width: 280px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .hero-text p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .hero-text img {
+        width: 450px;
+    }
+    .hero-btn {
+        margin-top: 100px;
+    }
+    .about-tiem p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .work-text h2 {
+        font-size: 120px;
+    }
+    .work-text p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .circle-text {
+        top: -80px;
+        left: -36px;
+        width: 370px;
+    }
+    .lottie-box {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+    .mintpact-bx h4 {
+        font-size: 18px;
+    }
+    .mintpact-bx {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .circle-two {
+        width: 30%;
+    }
+    .faq-text p {
+        font-size: 16px;
+    }
+    .faq-text {
+        max-width: 550px;
+        margin: 30px 0;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    .footer-link ul li a {
+        font-size: 18px;
+    }
+    footer {
+        background: #C7C7C7;
+        padding: 30px 0;
+    }
+    .work-box-inner {
+        width: 430px;
+        height: 430px;
+    }
+    .area-title h2 {
+        font-size: 70px;
+    }
+    .faq-area {
+        padding-top: 50px;
+    }
+    .work-progress-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .work-box-wrapper {
+        display: block;
+        max-width: 1050px;
+        margin: 0 auto;
+    }
+    footer .container-fluid {
+        padding: 0px 15px !important;
+    }
+    .faq-boll {
+        width: 400px;
+        height: 400px;
+        right: -180px;
+        top: 18%;
+    }
+    
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+    .radial-circle {
+        width: 1100px;
+        height: 1100px;
+        left: 50%;
+        top: -400px;
+    }
+    .hero-text {
+        margin-top: -80px;
+    }
+    .hero-btn a {
+        font-size: 25px;
+        width: 280px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .hero-text p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .hero-text img {
+        width: 450px;
+    }
+    .hero-btn {
+        margin-top: 100px;
+    }
+    .about-tiem p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .work-text h2 {
+        font-size: 90px;
+    }
+    .work-text p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .circle-text {
+        top: -68px;
+        left: -56px;
+        width: 370px;
+    }
+    .lottie-box {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+    .mintpact-bx h4 {
+        font-size: 18px;
+    }
+    .mintpact-bx {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .circle-two {
+        width: 30%;
+    }
+    .faq-text p {
+        font-size: 16px;
+    }
+    .faq-text {
+        max-width: 550px;
+        margin: 30px 0;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    .footer-link ul li a {
+        font-size: 18px;
+    }
+    footer {
+        background: #C7C7C7;
+        padding: 30px 0;
+    }
+   
+    .area-title h2 {
+        font-size: 70px;
+    }
+    .faq-area {
+        padding-top: 50px;
+    }
+    .work-progress-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .hero-area {
+        overflow: hidden;
+    }
+    .work-box-inner {
+        width: 300px;
+        height: 300px;
+    }
+    .work-box-wrapper {
+        display: block;
+        max-width: 850px;
+        margin: 0 auto;
+    }
+    .mintpact-bx h4 {
+        font-size: 16px;
+    }
+    .area-title {
+        margin-bottom: 80px;
+    }
+    .mintpact-area {
+        padding: 120px 0;
+    }
+    .faq-text h4 {
+        font-size: 17px;
+        letter-spacing: 0;
+    }
+    footer .container-fluid {
+        padding: 0px 15px !important;
+    }
+    .about-area {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .about-tiem h3 {
+        font-size: 22px;
+    }
+    .faq-boll {
+        width: 360px;
+        height: 360px;
+        right: -180px;
+        top: 15%;
+    }
+    
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-area {
+        height: 850px;
+    }
+    .container {
+        max-width: 1170px;
+    }
+    .radial-circle {
+        width: 1100px;
+        height: 1100px;
+        left: 50%;
+        top: -400px;
+    }
+    .hero-text {
+        margin-top: -80px;
+    }
+    .hero-btn a {
+        font-size: 22px;
+        width: 255px;
+        height: 65px;
+        line-height: 65px;
+    }
+    .hero-text p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .hero-text img {
+        width: 450px;
+    }
+    .hero-btn {
+        margin-top: 100px;
+    }
+    .about-tiem p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .work-text h2 {
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    .work-text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .circle-text {
+        top: -54px;
+        left: -38px;
+        width: 230px;
+    }
+    .lottie-box {
+        width: 75px;
+        height: 75px;
+        margin-bottom: 20px;
+    }
+    .mintpact-bx h4 {
+        font-size: 18px;
+    }
+    .mintpact-bx {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .circle-two {
+        width: 25%;
+    }
+    .faq-text p {
+        font-size: 14px;
+        text-align: left;
+    }
+    .faq-text {
+        max-width: 550px;
+        margin: 30px 0;
+    }
+    footer p {
+        font-size: 16px;
+    }
+    .footer-link ul li a {
+        font-size: 16px;
+    }
+    footer {
+        background: #C7C7C7;
+        padding: 30px 0;
+    }
+   
+    .area-title h2 {
+        font-size: 70px;
+    }
+    .faq-area {
+        padding-top: 50px;
+    }
+    .work-progress-area {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .hero-area {
+        overflow: hidden;
+    }
+    .work-box-inner {
+        width: 260px;
+        height: 260px;
+    }
+    .work-box-wrapper {
+        display: block;
+        max-width: 680px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .mintpact-bx h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .area-title {
+        margin-bottom: 80px;
+    }
+    .mintpact-area {
+        padding: 50px 0;
+    }
+    .faq-text h4 {
+        font-size: 17px;
+        letter-spacing: 0;
+        text-align: left;
+    }
+    footer .container-fluid {
+        padding: 0px 15px !important;
+    }
+    .about-area {
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+    .about-tiem h3 {
+        font-size: 20px;
+    }
+    .mintpact-bx {
+        margin: 20px 0;
+    }
+    .circle-two {
+        top: 46%;
+    }
+    .faq-boll {
+        width: 300px;
+        height: 300px;
+        right: -180px;
+        top: 15%;
+    }
+    
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (max-width: 767px) {
+    .hero-area {
+        height: 700px;
+        overflow: hidden;
+    }
+    .radial-circle {
+        width: 750px;
+        height: 750px;
+        top: -130px;
+    }
+    .hero-text p {
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: .5px;
+    }
+
+    .hero-text br {
+        display: none;
+    }
+    .hero-text {
+        margin-top: -120px !important;
+        padding-top: 0;
+    }
+    .hero-btn a {
+        font-size: 22px;
+        line-height: 45px;
+        width: 240px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .hero-btn {
+        margin-top: 80px;
+    }
+    .hero-text img {
+        width: 270px;
+    }
+    .lottie-box {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 15px;
+    }
+    .about-tiem p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .work-box {
+        width: 300px;
+        float: unset;
+        margin: 50px auto;
+    }
+    .work-box-inner {
+        width: 300px;
+        height: 300px;
+        display: flex;
+    }
+    .work-text h2 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .work-text p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .circle-text {
+        position: absolute;
+        top: -80px;
+        left: 0%;
+        width: 500px;
+        transform: translateX(-50%);
+        transform: rotate(18deg);
+    }
+    .mintpact-area {
+        padding: 0;
+        position: relative;
+        z-index: 1;
+    }
+    .circle-two {
+        display: none;
+    }
+    .mintpact-bx {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .area-title h2 {
+        font-size: 55px;
+        line-height: 1;
+    }
+    .faq-text p {
+        font-size: 16px;
+        text-align: left;
+    }
+    .footer-link ul li {
+        display: inline;
+        margin-left: 0;
+        margin: 15px 10px;
+    }
+    .footer-link {
+        text-align: center !important;
+        margin-bottom: 20px;
+    }
+    .about-area {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .footer-link ul li a {
+        font-size: 15px;
+        padding: 5px 0;
+        display: inline-block;
+    }
+
+    footer .container-fluid {
+        padding: 0px 15px !important;
+    }
+    .copyright p {
+        font-size: 16px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    footer {
+        background: #C7C7C7;
+        padding: 20px 0;
+    }
+    .faq-text h4 {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .faq-boll {
+        display: none;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  
+    
+    
+ 
+}

@@ -33,7 +33,6 @@ const Upload = () => {
 
         axios
           .get(
-            // `https://rinkeby-api.opensea.io/api/v1/assets?owner=0x105f0a4961C8F69cB4F8cFD2AE69954021F66Dfe&order_direction=asc&offset=0&limit=20`
             `https://rinkeby-api.opensea.io/api/v1/assets?owner=${address}&order_direction=asc&offset=0&limit=20`
           )
           .then((response) => {
@@ -66,8 +65,8 @@ const Upload = () => {
     try {
       setIsTransactionPending(true);
       setModalText({
-        message: 'Uploading your NFT Requires 2 steps',
-        tip: 'Step 1 - Approve Mintpact to Transact with your wallet'
+        message: 'Upload your NFT in 2 simple steps.',
+        tip: '1. Approve Mintpact to transact with your wallet'
       })
 
       const provider = new ethers.providers.Web3Provider(window.ethereum);
@@ -84,15 +83,16 @@ const Upload = () => {
       const approveTx = await nft721Contract.approve("0xCB996552a7ba1596C8B71395D73166026dfA8dFD", nftTokenId);
 
       setModalText({
-        message: 'Waiting For Your Transaction to Confirm',
-        tip: 'Please do not refresh your screeen or go back'
+        message: `Waiting for your
+        Transaction to Confirm`,
+        tip: 'Please do not refresh your screen or go back.'
       })
 
       await approveTx.wait();
 
       setModalText({
-        message: 'Uploading your NFT Requires 2 steps',
-        tip: 'Step 2 - Submit Offer'
+        message: 'Upload your NFT in 2 simple steps.',
+        tip: '2. Submit your Offer'
       })
 
       const nftResellerContract = new Contract(
@@ -106,8 +106,9 @@ const Upload = () => {
       const offerTx = await nftResellerContract.createOffer(nftAddress, nftTokenId, priceInWei);
 
       setModalText({
-        message: 'Waiting For Your Transaction to Confirm',
-        tip: 'Please do not refresh your screeen or go back'
+        message: `Waiting for your
+        Transaction to Confirm`,
+        tip: 'Please do not refresh your screen or go back.'
       })
 
       const offerTxData = await offerTx.wait();
@@ -245,7 +246,8 @@ const Upload = () => {
                             <div className="NFTCard">
                               <div className="NFTuserCard position-relative">
                                 {isSelected && (
-                                  <img className="icon-selected" src="/assets/images/checked.svg" width="24" alt="selected"/>
+                                  <img className="icon-selected" src="/assets/images/checked.svg" width="24"
+                                       alt="selected"/>
                                 )}
                                 <img src={nft.image_url} alt={nft.name}/>
                               </div>
@@ -463,22 +465,13 @@ const Upload = () => {
                     UPLOAD
                   </button>
                 </div>
-
-                <br/>
-                <br/>
-
-                {isTransactionPending && (
-                  <h4 style={{ marginLeft: "200px", position: "absolute" }}>
-                    Please wait while your transaction confirms.
-                  </h4>
-                )}
               </div>
             </>
           )}
         </div>
       </div>
 
-      <footer>
+      <footer className="footer-app">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">

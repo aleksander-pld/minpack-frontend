@@ -81,7 +81,7 @@ export class SubmittingNFT extends Component {
             </div>
           </div>
         </div>
-        <footer>
+        <footer className="footer-app">
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
