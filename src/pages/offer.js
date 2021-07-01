@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Link, useHistory, useParams } from "react-router-dom";
 import { ethers, Contract } from "ethers";
 import NftReseller from "../contracts/NftReseller.json";
@@ -10,7 +10,7 @@ import ModalComponent from '../components/modal';
 const Offer = (props) => {
   const history = useHistory()
   const { id } = useParams()
-
+  const containerRef = useRef()
   const [isLoading, setIsLoading] = useState(true);
   const [isTransactionPending, setIsTransactionPending] = useState(false);
   const [margin, setMargin] = useState();
@@ -56,6 +56,10 @@ const Offer = (props) => {
     }
   }, []);
 
+  const gotoScrollDown = () => {
+    containerRef.current.scrollTop = containerRef.current.scrollHeight;
+  }
+
   const onCreateShare = async () => {
     try {
       setIsTransactionPending(true)
@@ -77,11 +81,20 @@ const Offer = (props) => {
       )
 
       const priceInWei = ethers.utils.parseEther(margin.toString())
-
       const shareTx = await nftResellerContract.createShareLink(offer.offerId, priceInWei)
+      setModalText({
+        message: `Confirm this Transaction with 
+        your wallet to create Sharelink.`,
+        tip: ''
+      })
       const shareTxData = await shareTx.wait()
+      
+      setModalText({
+        message: `Please wait while we
+        conjure up your Sharelink`,
+        tip: ''
+      })
       const shareId = shareTxData.events[0].args.shareId.toString()
-
       const data = {
         offer: offer._id,
         influencer: address,
@@ -95,6 +108,7 @@ const Offer = (props) => {
       setShareId(shareId)
       setShowResults2(true)
       setIsTransactionPending(false)
+      gotoScrollDown()
     } catch (e) {
       console.error(e)
       setIsTransactionPending(false)
@@ -142,7 +156,7 @@ const Offer = (props) => {
             </ul>
           </div>
         </div>
-        <div className="adminRightSide CreateNFTSections">
+        <div className="adminRightSide CreateNFTSections" ref={containerRef}>
           <div className="responsiveHeader">
             <nav className="navbar navbar-expand-xl navbar-light">
               <a className="navbar-brand" href="#">
