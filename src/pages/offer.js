@@ -65,8 +65,8 @@ const Offer = (props) => {
       setIsTransactionPending(true)
 
       setModalText({
-        message: `Please wait while we
-        conjure up your Share link`,
+        message: `Confirm this Transaction with 
+        your wallet to create Sharelink.`,
         tip: ''
       })
 
@@ -82,11 +82,6 @@ const Offer = (props) => {
 
       const priceInWei = ethers.utils.parseEther(margin.toString())
       const shareTx = await nftResellerContract.createShareLink(offer.offerId, priceInWei)
-      setModalText({
-        message: `Confirm this Transaction with 
-        your wallet to create Sharelink.`,
-        tip: ''
-      })
       const shareTxData = await shareTx.wait()
       
       setModalText({
